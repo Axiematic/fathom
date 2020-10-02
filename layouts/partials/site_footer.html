@@ -1,0 +1,181 @@
+<footer class="site-footer">
+    {{/*  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+    <p class="powered-by">
+      {{ with site.GetPage "privacy.md" }}
+        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+      {{ end }}
+      {{ with site.GetPage "terms.md" }}
+        {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
+        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+      {{ end }}
+    </p>
+    {{ end }}
+  
+    <p class="powered-by">
+      {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+    </p>  */}}
+  
+    {{/* Display copyright license. */}}
+    {{/*  {{ partial "site_footer_license" . }}  */}}
+  
+
+    <div class="container-fluid">
+      <div class="row" style=" padding: 5% 4% 5% 0%;  background-color: #f2f3f5;">
+          <div class="col-sm footer-section">
+              <div class="row footer-heading">
+                  <p style="margin-top: 1rem;"><strong>Challenge us</strong></p>
+              </div>
+              <div class="row offset-sm-2 footer-section-text">
+                  <p>What business problem is keeping you up? Share it, and we'll come back with some ideas on how to solve it.</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <p class="footer-statement">How can we help?</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <img src="media/challenge.svg" class="cta-icon" alt="Challenge us">
+              </div>
+          </div>
+          <div class="col-sm footer-section">
+              <div class="row footer-heading">
+                  <p style="margin-top: 1rem;"><strong>Join us</strong></p>
+              </div>
+              <div class="row offset-sm-2 footer-section-text">
+                  <p>We're always looking for outstanding remote talent. If you believe you have 'IQ with EQ', please get in touch.</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <p class="footer-statement" type="button" class="btn btn-primary" data-toggle="modal" data-target="#join-us">Apply to collaborate</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <img src="media/join.svg" class="cta-icon" alt="Join us">
+              </div>
+          </div>
+          <div class="col-sm footer-section">
+              <div class="row footer-heading">
+                  <p style="margin-top: 1rem;"><strong>Hear from us</strong></p>
+              </div>
+              <div class="row offset-sm-2 footer-section-text">
+                  <p>We run regular training courses. Subscribe to stay up to date with what's happening, when and where.</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <p class="footer-statement" type="button" class="btn btn-primary" data-toggle="modal" data-target="#hear-from-us">Receive training newsletters</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <img src="media/hear.svg" class="cta-icon" alt="Hear from us">
+              </div>
+          </div>
+          <div class="col-sm footer-section">
+              <div class="row footer-heading">
+                  <p style="margin-top: 1rem;"><strong>Contact us</strong></p>
+              </div>
+              <div class="row offset-sm-2 footer-section-text">
+                  <p>We're based in Durban, South Africa, but engage with clients everywhere and anywhere.</p>
+                  <p>info@fathom.biz | +27 (0)83 350 7699</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <p class="footer-statement">Get in touch</p>
+              </div>
+              <div class="row offset-sm-2">
+                  <img src="media/contact.svg" class="cta-icon" alt="Contact us">
+              </div>
+          </div>
+        </div>
+  </div>
+
+  <div class="modal fade" id="join-us" tabindex="-1" role="dialog" aria-labelledby="join-us" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="join-us">Join the team!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Full name">
+                          <input type="email" class="form-control" placeholder="Email">
+                      <label for="cv-upload">Upload your CV</label>
+                      <input type="file" class="form-control-file" id="cv-upload">
+                  </div>
+                </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="cta-button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="hear-from-us" tabindex="-1" role="dialog" aria-labelledby="hear-from-us" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Subscribe to our newsletter!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="mc_embed_signup">
+              <form action="https://exegetic.us2.list-manage.com/subscribe/post?u=13ec3dd31d57a1c860f834cc5&amp;id=a20267db0d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="mc-field-group">
+                    <input type="text" value="" name="FNAME" class="form-control" placeholder="First Name" id="mce-FNAME">
+                  </div>
+                  <div class="mc-field-group">
+                    <input type="text" value="" name="LNAME" class="form-control" placeholder="Last Name" id="mce-LNAME">
+                  </div>
+                  <div class="mc-field-group">
+                  </label>
+                    <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email" id="mce-EMAIL">
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_13ec3dd31d57a1c860f834cc5_a20267db0d" tabindex="-1" value=""></div>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+          </div>
+          <div class="modal-footer">
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_13ec3dd31d57a1c860f834cc5_a20267db0d" tabindex="-1" value=""></div>
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="cta-button button">Subscribe</button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+
+
+  <div class="container-fluid footer-social">
+      <div class="row" style="padding: 1% 0.1%;">
+          <div class="col-2 footer-center">
+              <img src="media/logo_white.svg" alt="Fathom">
+          </div>
+          <div class="col-2 border-left footer-center">
+              <p style="margin-bottom: 0%;">© 2020 Fathom Data</p>
+          </div>
+          <div class="col-2 border-left footer-center">
+              <a href="" style="margin: 2%;">privacy policy</a>
+              <a href="" style="margin: 2%;">terms</a>
+              <a href="" style="margin: 2%;">legal</a>
+          </div>
+          <div class="col-2">
+          </div>
+          <div class="col-2" style="display:flex; justify-content: flex-end;">
+              <img src="media/facebook.svg" class="social-icon" alt="Fathom on Facebook">
+              <img src="media/instagram.svg" class="social-icon" alt="Fathom on Instagram">
+              <img src="media/twitter.svg" class="social-icon" alt="Fathom on Twitter">
+          </div>
+          <div class="col-2 border-left" style="display:flex; justify-content: flex-start;">
+              <img src="media/signature_white.svg" style="margin-top: 2%;" alt="Fathom">
+          </div>
+      </div>
+  </div>
+
+
+
+  </footer>
