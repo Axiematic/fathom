@@ -51,7 +51,7 @@ subtitle = ""
   <div class="row h-100" style="margin-right: 0;">
       <div class="col-6 clients-left">
         <div>
-          <h4><strong class="orange-text">What do you<br> want to know?</strong></h4>
+          <h3><strong class="orange-text">What do you<br> want to know?</strong></h3>
           <p class="orange-text">Fathom uses data to help organisations know what they should be doing more or less of. Or doing better. Or next.</p>
           <p>Our services include all aspects of <a href="" style="color: #98a6ad">analytics</a> (data preparation, analysis, modelling and forecasting). We also conduct a wide range of <a href="" style="color: #98a6ad">training</a>, in order that you and your staff can become more fluent in working with data yourselves.</p>
           <p>In everything we do, we want you to 'know' - not just that our work has been thoroughly and meticulously conducted, but also explained in a way that you properly understand and know exactly how to use.</p>
