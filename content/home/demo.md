@@ -68,7 +68,7 @@ subtitle = ""
      <div class="home-banner">
       <div class="home-text slide-r">
         <div class="container-fluid home-text-container page-inner" style="padding-right: 0%;">
-          <div class="row h-100" style="margin-right: 20%;">
+          <div class="row h-100 about-text-row">
               <div class="col-12 align-self-center">
                   {{< figure library="true" src="signature_purple.svg" class="signature-p" >}}
                   <div class="about-text">We believe that making data meaningful is not just about offering robust thinking and outstanding insights. It's also about providing solutions that are prgamatic and easy to understand - brilliantly visualised, and in plan English.</div>
