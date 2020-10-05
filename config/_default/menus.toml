@@ -34,7 +34,7 @@
 
 [[main]]
   name = "contact us"
-  url = "#contact"
+  url = "contact-us/"
   weight = 6
 
 
