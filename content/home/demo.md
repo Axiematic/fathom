@@ -65,7 +65,7 @@ subtitle = ""
             <div class="fade-In"><strong>athom<sup class="TM">TM</sup></strong></div>
       </div>
   </div>
-     <div class="home-banner">
+    <div class="home-banner">
       <div class="home-text slide-r">
         <div class="container-fluid home-text-container page-inner" style="padding-right: 0%;">
           <div class="row h-100 about-text-row">
