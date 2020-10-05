@@ -1,5 +1,11 @@
+/* General */
+
     html, body {
         height: 100%;
+    }
+
+    figure {
+      margin: 0;
     }
 
     .container-fluid {
@@ -16,6 +22,10 @@
       color: black;
     }
 
+    a {
+      font-size: smaller;
+    }
+
     .navbar-brand img {
         max-height: 45px;
     }
@@ -23,6 +33,10 @@
     .navbar {
       padding: .5rem 5vw;
 
+    }
+
+    .nav-item {
+      font-size: 1.1rem;
     }
 
     a.dropdown-menu {
@@ -179,6 +193,10 @@
        } 
   }
 
+  .row {
+    margin-left: 0;
+    margin-right: 0!important;
+  }
 
     .col-12 {
       padding-left: 0;
@@ -236,6 +254,10 @@
       height: 100%;
     }
 
+    .footer-section {
+      padding-right: 0;
+    }
+
     .footer-section:hover > .footer-heading {
         background-color: #ff5534;
     }
@@ -254,6 +276,11 @@
         margin-top: auto;
     }
 
+    .footer-heading-text {
+      color: white;
+      margin-top: 1rem;
+    }
+
     .footer-statement {
         border-style: solid; 
         border-color: #dbdcde; 
@@ -268,6 +295,11 @@
 
     footer {
         padding: 0!important;
+        margin: 0;
+    }
+
+    footer p {
+      text-align: left;
     }
 
     .modal-content {
@@ -407,7 +439,11 @@
 
   .about-text {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+
+  .about-text-row {
+    margin-right: 20%!important;
   }
 
 
@@ -419,10 +455,14 @@
 
     .clients-left {
       padding-right:5%;
+      padding-top: 3vw;
+      padding-bottom: 3vw;
     }
 
     .clients-right {
       background-color: #f2f3f5;
+      padding-top: 3vw;
+      padding-bottom: 3vw;
     }
 
 
@@ -432,6 +472,17 @@
 
     .orange-text {
         color: #ff5534;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .carousel-caption {
+      text-align: left;
     }
 
 /* Clients Page */
