@@ -30,6 +30,21 @@
       font-size: smaller;
     }
 
+    .orange-text {
+      color: #ff5534;
+    }
+
+    .purple-text {
+        color: #9088ff;
+    }
+
+    .white-text {
+        color: white;
+    }
+
+
+/* General */
+
     .navbar-brand img {
         max-height: 45px;
     }
@@ -453,7 +468,7 @@
   }
 
 
-/* Clients Page */
+/* Clients page */
 
     .clients {
         height: 70vh;
@@ -471,15 +486,6 @@
       padding-bottom: 3vw;
     }
 
-
-    h4 {
-        color: #ff5534;
-    }
-
-    .orange-text {
-        color: #ff5534;
-    }
-
     .center {
       display: block;
       margin-left: auto;
@@ -491,4 +497,32 @@
       text-align: left;
     }
 
-/* Clients Page */
+/* Clients page */
+
+/* Contact us page */
+
+    .contact-left {
+        padding-right:10%;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+
+    .contact-right {
+        background-image: url("/media/contact.jpg");
+        background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 100%;
+    }
+
+    .contact-icon {
+      // background-color: #9088ff;
+      padding: 0.5%;
+    }
+
+    .contact {
+      margin-bottom: 1rem;
+      color: black;
+    }
+
+/* Contact us page */
