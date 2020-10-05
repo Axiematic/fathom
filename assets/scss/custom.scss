@@ -8,6 +8,10 @@
       margin: 0;
     }
 
+    .offset-5vw {
+      padding-left:5vw;
+    }
+
     .container-fluid {
         padding: 0;
     }
@@ -256,6 +260,7 @@
 
     .footer-section {
       padding-right: 0;
+      padding-left: 0;
     }
 
     .footer-section:hover > .footer-heading {
