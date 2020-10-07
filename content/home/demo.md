@@ -67,12 +67,11 @@ subtitle = ""
   </div>
     <div class="home-banner">
       <div class="home-text slide-r">
-        <div class="container-fluid home-text-container page-inner" style="padding-right: 0%;">
+        <div class="container-fluid home-text-container" style="padding-right: 0%; margin-left: 5vw">
           <div class="row h-100 about-text-row">
               <div class="col-12 align-self-center">
                   {{< figure library="true" src="signature_purple.svg" class="signature-p" >}}
-                  <div class="about-text">We believe that making data meaningful is not just about offering robust thinking and outstanding insights. It's also about providing solutions that are prgamatic and easy to understand - brilliantly visualised, and in plan English.</div>
-                  <div class="about-text"><strong style="color: #ff5534;">At Fathom, we like to think we provide IQ with EQ.</strong></div>
+                  <div class="about-text">We believe that making data meaningful is not just about offering robust thinking and outstanding insights. It’s also about providing solutions that are pragmatic and easy to understand – brilliantly visualised, and in plain English. <strong style="color: #ff5534;">At Fathom, we call this <i>IQ + EQ.</i></strong></div>
               </div>
           </div>
         </div>
