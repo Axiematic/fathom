@@ -4,6 +4,10 @@
         height: 100%;
     }
 
+    .col-6 {
+      padding: 0;
+    }
+
     figure {
       margin: 0;
     }
@@ -26,10 +30,6 @@
       color: black;
     }
 
-    a {
-      font-size: smaller;
-    }
-
     .orange-text {
       color: #ff5534;
     }
@@ -44,6 +44,14 @@
 
 
 /* General */
+
+    a:hover {
+      transition: none!important;
+    }
+
+    a {
+      transition: none!important;
+    }
 
     .navbar-brand img {
         max-height: 45px;
@@ -60,6 +68,14 @@
 
     a.dropdown-menu {
         color: #9088ff!important;
+    }
+    
+    #navbar-main .main-menu-item ul li .nav-link {
+      font-size: 1rem;
+    }
+
+    .navbar .navbar-nav .nav-link.active {
+      color: #ffffff!important;
     }
 
     .dropdown-item {
@@ -231,10 +247,6 @@
      height: 70vh;
     }
 
-    .page-inner {
-      padding-left: 5vw;
-    }
-
     .logo-banner {
         background-color: #121a25;
         display: flex; 
@@ -323,6 +335,12 @@
       text-align: left;
     }
 
+    .contact-cta {
+      margin-bottom: 1rem;
+      font-size: .75rem;
+      color: black;
+    }
+
     .modal-content {
         border-radius: 0;
     }
@@ -396,6 +414,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 0.8rem;
     }
 
     .border-left {
@@ -471,19 +490,22 @@
 /* Clients page */
 
     .clients {
-        height: 70vh;
+      background-color: white;
     }
 
     .clients-left {
       padding-right:5%;
       padding-top: 3vw;
       padding-bottom: 3vw;
+      padding-left: 5vw;
+      padding-right: 5vw;
     }
 
     .clients-right {
       background-color: #f2f3f5;
       padding-top: 3vw;
-      padding-bottom: 3vw;
+      padding-left: 5vw;
+      margin: 0;
     }
 
     .center {
@@ -497,6 +519,24 @@
       text-align: left;
     }
 
+    .carousel-logo {
+      background-color: #f2f3f5;
+      padding-top: 3vw;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      margin: 0;
+      height: 70vh;
+    }
+
+    .carousel-quote {
+      background-color: #9088ff;
+      padding-top: 3vw;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      margin: 0;
+      height: 70vh
+    }
+
 /* Clients page */
 
 /* Contact us page */
@@ -505,6 +545,7 @@
         padding-right:10%;
         padding-top: 3vw;
         padding-bottom: 3vw;
+        position: relative;
     }
 
     .contact-right {
@@ -513,6 +554,7 @@
           background-size: cover;
           background-position: center;
           height: 100%;
+        position: relative;
     }
 
     .contact-icon {
@@ -523,6 +565,16 @@
     .contact {
       margin-bottom: 1rem;
       color: black;
+    }
+
+    .gradient-overlay {
+      background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ff5534); 
+      position: absolute; 
+      bottom:0; 
+      width: 8%; 
+      height: 100%; 
+      left: 50%; 
+      transform: translate(-50%);
     }
 
 /* Contact us page */
