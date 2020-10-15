@@ -417,6 +417,12 @@
         font-size: 0.8rem;
     }
 
+    .footer-left {
+      display: flex;
+      align-items: center;
+      font-size: 0.8rem;
+  }
+
     .border-left {
         border-left: solid;
         border-color: white;
@@ -578,3 +584,43 @@
     }
 
 /* Contact us page */
+
+/* Media queries */
+
+// @media screen and (min-width: 576px) {
+//   .hide-575 {
+//     display: none;
+//   }
+// }
+
+@media screen and (max-width: 576px) {
+  .hide-576 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .hide-577 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-768 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hide-992 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200) {
+  .hide-1200 {
+    display: none;
+  }
+}
+
+/* Media queries */
