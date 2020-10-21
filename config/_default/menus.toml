@@ -8,29 +8,29 @@
   url = "#home"
   weight = 1
 
-[[main]]
-  name = "our core team"
-  url = "#team"
-  identifier = "team"
-  parent = "about"
-  weight = 2
+# [[main]]
+#   name = "our core team"
+#   url = "#team"
+#   identifier = "team"
+#   parent = "about"
+#   weight = 2
 
-[[main]]
-  name = "our clients"
-  url = "clients/"
-  identifier = "clients"
-  parent = "about"
-  weight = 3
+# [[main]]
+#   name = "our clients"
+#   url = "clients/"
+#   identifier = "clients"
+#   parent = "about"
+#   weight = 3
 
-[[main]]
-  name = "analytics"
-  url = "#analytics"
-  weight = 4
+# [[main]]
+#   name = "analytics"
+#   url = "#analytics"
+#   weight = 4
 
-[[main]]
-  name = "training"
-  url = "#training"
-  weight = 5
+# [[main]]
+#   name = "training"
+#   url = "#training"
+#   weight = 5
 
 [[main]]
   name = "contact us"
