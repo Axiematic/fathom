@@ -71,11 +71,15 @@
     }
     
     #navbar-main .main-menu-item ul li .nav-link {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
 
     .navbar .navbar-nav .nav-link.active {
-      color: #ffffff!important;
+      color: white!important;
+    }
+
+    .dropdown-item.active, .dropdown-item:active {
+      color: white!important;
     }
 
     .dropdown-item {
@@ -323,7 +327,6 @@
 
     .footer-section:hover .footer-statement {
         border-color: #ff5534;
-        box-shadow: 3px 3px 3px rgba(33, 33, 33, 0.479);
     }
 
     footer {
@@ -389,8 +392,7 @@
     }
 
     .footer-section:hover .cta-icon {
-        background-color: #9088ff;    
-        box-shadow: 3px 3px 3px rgba(33, 33, 33, 0.479);
+        background-color: #9088ff;
     }
 
     .footer-social {
