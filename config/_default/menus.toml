@@ -8,34 +8,36 @@
   url = "#home"
   weight = 1
 
-# [[main]]
-#   name = "our core team"
-#   url = "#team"
-#   identifier = "team"
-#   parent = "about"
-#   weight = 2
+[[main]]
+  name = "about"
+  url = ""
+  identifier = "about"
+  weight = 2
 
-# [[main]]
-#   name = "our clients"
-#   url = "clients/"
-#   identifier = "clients"
-#   parent = "about"
-#   weight = 3
+[[main]]
+  name = "our clients"
+  url = "clients/"
+  parent = "about"
 
-# [[main]]
-#   name = "analytics"
-#   url = "#analytics"
-#   weight = 4
+[[main]]
+  name = "our core team"
+   url = "team/"
+  parent = "about"
 
-# [[main]]
-#   name = "training"
-#   url = "#training"
-#   weight = 5
+ [[main]]
+   name = "analytics"
+   url = "#analytics"
+   weight = 3
+
+ [[main]]
+   name = "training"
+   url = "#training"
+   weight = 4
 
 [[main]]
   name = "contact us"
   url = "contact-us/"
-  weight = 6
+  weight = 5
 
 
 # Link to a PDF of your resume/CV from the menu.
