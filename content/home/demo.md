@@ -62,7 +62,7 @@ subtitle = ""
           </div>
       </div>
       <div class="logo-banner-text">
-            <div class="fade-In"><strong>athom<sup class="TM">TM</sup></strong></div>
+            <div class="fade-In">athom<sup class="TM">TM</sup></div>
       </div>
   </div>
     <div class="home-banner">
