@@ -585,7 +585,64 @@
       transform: translate(-50%);
     }
 
+    .move {
+      position: absolute; 
+      height: 35%;
+      bottom:0;
+      left: 46%;
+    }
+
 /* Contact us page */
+
+/* Team page */
+
+
+
+.team-card {
+  padding: 0;
+}
+
+.card-body {
+  padding: 0%;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.team-carousel .carousel-inner .carousel-item.active,
+.team-carousel .carousel-inner .carousel-item-next,
+.team-carousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .team-carousel .carousel-inner .carousel-item-right.active,
+  .team-carousel .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  
+  .team-carousel .carousel-inner .carousel-item-left.active, 
+  .team-carousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.team-carousel .carousel-inner .carousel-item-right,
+.team-carousel .carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+
+
+
+/* Team page */
 
 /* Media queries */
 
