@@ -46,51 +46,89 @@ subtitle = ""
  css_class = ""
 +++
 
-
-<div class="page-wrapper">
-  <div class="container-fluid text-center my-3">
-    <div class="row mx-auto my-auto">
-        <div id="teamCarousel" class="carousel slide w-100" data-ride="carousel"> 
-        <div id="teamCarousel" class="carousel slide w-100 team-carousel" data-interval="false" data-ride="carousel">
-            <div class="carousel-inner w-100" role="listbox">
-                <div class="carousel-item active">
-                    <div class="col-md-4 team-card">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=1">
+<div class="row mx-auto my-auto page-wrapper">
+            <div id="clientCarousel" class="carousel slide w-100" data-ride="carousel" data-interval=false>
+                <div class="carousel-inner" role="listbox" style="height:100%;">
+                    <div class="carousel-item active">
+                        <div class="carousel-slide" style="background-image: url(/media/andrew.jpeg)">
+                            <div class="carousel-slide-text left"> 
+                                <h5 class="offset-5vw f-name">Andrew</h5> 
+                            </div>
+                            <!-- the hover thing -->
+                            <div class="carousel-slide-hover slide-hover-one">
+                                <div class="slide-inner">
+                                    <h3 style="margin-bottom: 0;">Andrew Collier</h3>
+                                    <p class="white-text"><i>Founder +<br> Lead Data Scientist</i></p>
+                                    <div class="bio">
+                                        <p class="white-text">Andrew holds a Masters Degree in Nuclear Physics (North-West University, South Africa), and a PhD in Space Physics (KTH Royal institute of Technology, Sweden).</p>
+                                        <p class="white-text">Having worked on all seven continents, and with experience in academic and commercial environments, Andrew has honed his skills in research, data analysis and scientific computing. Equally importantly, he has refined his ability to teach and communicate, ensuring his knowledge and insights are conveyed in an intuitive and easily accessible way to experts and laymen alike. Technical content in plain English.</p>
+                                        <p class="white-text">Outside of work, Andrew continues to play with computers and data. He also enjoys cooking and gardening (and the outdoors in general). He’s a keen runner (both road and trail) and has slogged his way to a Comrades Marathon Green Number.</p>
+                                    </div>
+                                    <img src="/media/happy.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
+                                    <h5 style="color: #ff5534;">Andrew is kind, <br>patient + enthusiastic</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-slide" style="background-image: url(/media/megan.jpg)">
+                            <div class="carousel-slide-text-center"> 
+                                <h5 class="offset-5vw f-name">Megan</h5> 
+                            </div>
+                            <!-- the hover thing -->
+                            <div class="carousel-slide-hover slide-hover-two">
+                                <div class="slide-inner">
+                                    <h3>Megan Beckett</h3>
+                                    <p class="white-text"><i>Data Scientist</i></p>
+                                    <div class="bio">
+                                        <p class="white-text">The phrase: ‘Scientifically creative; creatively scientific’ aptly describes Megan’s approach to work and life.</p>
+                                        <p class="white-text">With both a Masters Degree in Molecular Biology and having worked in an educational technology start-up, Megan brings a unique combination of skills to the world of Data Science, with the ability to delve deeply into data while also maintaining a high level picture.</p>
+                                        <p class="white-text">Megan is a firm believer in supporting other women and women-identifying individuals, particularly in traditionally male-dominated fields.</p>
+                                        <p class="white-text">Recreationally, Megan is a seasoned runner, continually pushing herself for the next marathon or exploring new trails on the mountain. To engage a different part of her brain, she also enjoys painting, and one day aims to have her own creative studio.</p>
+                                    </div>
+                                    <img src="/media/happy-t.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem">
+                                    <h5 style="color: #121a25;">Megan is passionate, <br>active + caring</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-slide carousel-slide-right" style="background-image: url(/media/emma.jpg)">
+                            <div class="carousel-slide-text-right"> 
+                                <h5 class="offset-5vw f-name">Emma</h5> 
+                            </div>
+                            <!-- the hover thing -->
+                            <div class="carousel-slide-hover slide-hover-three">
+                                <div class="slide-inner">
+                                    <h3>Emma Collier</h3>
+                                    <p class="white-text"><i>Junior Developer +<br> Office Administrator</i></p>
+                                    <div class="bio">
+                                        <p class="white-text">As a junior developer, Emma is involved in all areas of development from design, to implementation, to testing. She also fulfils administrative duties for the business – ensuring projects run smoothly and the team is kept in check! .</p>
+                                        <p class="white-text">Fathom believes in developing and nurturing talent, and Emma believes she benefits from this in terms of continuously learning new skills and getting to apply them to interesting projects.</p>
+                                        <p class="white-text">Before joining the Fathom team, Emma was employed as a junior draughtsman in a mechanical engineering firm, and outside of work Emma’s passions include oriental dancing, DIY, and hiking with her dog ‘Mopsy’.</p>
+                                    </div>
+                                    <img src="/media/surprised-t.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem">
+                                    <h5 style="color: white;">Emma is creative, <br>excited + optimistic</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-slide" style="background-image: url(/media/left.svg)">
+                            <!-- the hover thing -->
+                            <div class="carousel-slide-hover slide-hover-three">
+                                <p>wtf</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="col-md-4 team-card">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=2">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4 team-card">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=3">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4 team-card">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=4">
-                        </div>
-                    </div>
-                </div>
+                <!-- <a class="carousel-control-prev" href="#clientCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#clientCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
             </div>
-            <a class="carousel-control-prev w-auto" href="#teamCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next w-auto" href="#teamCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-    </div>
-</div>
-</div>
