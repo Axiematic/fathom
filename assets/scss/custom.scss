@@ -293,10 +293,17 @@
     .footer-section {
       padding-right: 0;
       padding-left: 0;
-    }
-
-    .footer-section:hover > .footer-heading {
-        background-color: #ff5534;
+      a {
+        color: #000000;
+        &:hover {
+          color: #000000;
+        }
+      }
+      &:hover {
+        .footer-heading {
+          background-color: #ff5534;
+        }
+      }
     }
 
     .footer-section-text {
@@ -547,6 +554,174 @@
 
 /* Clients page */
 
+/* Team page */
+
+    .carousel-item {
+      min-height: 100%!important;
+    }
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+          transform: translateX(33.33%);
+      }
+
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+          transform: translateX(-33.33%)
+      }
+
+    .carousel-inner .carousel-item-right,
+    .carousel-inner .carousel-item-left{ 
+          transform: translateX(0);
+      }
+
+    .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+        display: flex;
+    }
+    .carousel-slide {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 70vh;
+      position: relative;
+
+      .carousel-slide-text {
+        position:absolute;
+        bottom:0;
+        height:40px;
+        background-color:#ff5534;
+        width:100%;
+        &::before {
+          content: "";
+          height: 40px;
+          width: 65%;
+          background-color:#ff56347e;
+          position: absolute;
+          bottom: 40px;
+        }
+        .left {
+          background-color:#ff5534;
+          &::before {
+            background-color:#ff56347e;
+            width: 65%;
+          }
+        }
+      }
+
+      // Replicate left subclass for center and right as above only including differences
+
+      .carousel-slide-text-center {
+        position:absolute;
+        bottom:0;
+        height:40px;
+        background-color:#9088ff;
+        width:100%;
+        &::before {
+          content: "";
+          height: 40px;
+          width: 8%;
+          background-color:#9088ff7e;
+          position: absolute;
+          bottom: 40px;
+          right: 0;
+        }
+        .h5 {
+          float: right;
+        } 
+      }
+
+      .carousel-slide-text-right {
+        position:absolute;
+        height:40px;
+        background-color:#ff5534;
+        width:100%;
+        &::before {
+          content: "";
+          height: 40px;
+          width: 65%;
+          background-color:#ff56347e;
+          position: absolute;
+          top: 40px;
+        }
+      }
+    }
+
+    .f-name {
+      margin: 10px 0px 0px 0px;
+      color: white!important;
+    }
+    
+    .carousel-slide-hover {
+      position: absolute;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide-hover-one {
+      background-color: #121a25;
+    }
+
+    .slide-hover-two {
+      background-color: #9088ff;
+    }
+
+    .slide-hover-three {
+      background-color: #ff5534;
+    }
+
+    .slide-inner {
+      padding: 5vh 5vw 0vh 5vw ;
+      position: absolute;
+      height: 100%;
+    }
+
+    /* create the animation class */
+    .fade-in {
+      animation: fadeIn ease 1s;
+      -webkit-animation: fadeIn ease 1s;
+      -moz-animation: fadeIn ease 1s;
+      -o-animation: fadeIn ease 1s;
+      -ms-animation: fadeIn ease 1s;
+      animation-fill-mode: forwards;
+    }
+    /* set the keyframes for the animation class */
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    .bio {
+      font-size: 0.75rem;
+      color: white;
+      overflow: hidden;
+      overflow-y: scroll;
+      height: 50%;
+    }
+
+/* Team page */
+
 /* Contact us page */
 
     .contact-left {
@@ -583,6 +758,13 @@
       height: 100%; 
       left: 50%; 
       transform: translate(-50%);
+    }
+
+    .move {
+      position: absolute; 
+      height: 35%;
+      bottom:0;
+      left: 46%;
     }
 
 /* Contact us page */
@@ -626,3 +808,19 @@
 }
 
 /* Media queries */
+@media (max-width: 720px) {
+  .desktop-only {
+     display: none !important;
+  }
+  .mobile-only {
+    display: block !important;
+  }
+
+}
+
+.desktop-only {
+  display: block;
+}
+.mobile-only {
+ display: none;
+}

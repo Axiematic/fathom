@@ -3,13 +3,10 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
-
-title = ""
-subtitle = ""
+title = "Team Fathom"  # Add a page title.
+summary = "Hello!"  # Add a page description.
+date = "2019-01-01T00:00:00Z"  # Add today's date.
+type = "widget_page"  # Page type is a Widget Page
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -22,7 +19,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#121a25"
+  # color = "navy"
   
   # Background image.
   # image = "home.jpg"  # Name of image in `static/media/`.
@@ -45,19 +42,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-
-<div style="height: 100%; margin-left: 5vw;">
-  <div class="row h-100" style="margin-right: 0; position: relative;">
-    <div class="col-6 contact-left">
-          <h3><strong class="purple-text">Let's get to know each<br>other better</strong></h3>
-          <p class="white-text">We're based in Durban, South Africa, but we can work with you wherever in the world you are.</p>
-          <p class="white-text">Get in touch to arrange a face-to-face chat or let's meet online. Either way, we look forward to getting under the skin of your challenges and making a difference to your business.</p>
-          <p class="white-text">You know it.</p>
-          <p class="orange-text">Andrew Collier <br>+27 (0)83 350 7699 <br> info@fathom.biz</p>
-    </div>
-    <div class="col-6 contact-right"></div>
-    <div><img src="/media/contact-purple.svg" class="move" alt="Contact us"></div>
-    <div class="gradient-overlay"></div>
-  </div>
-</div>
