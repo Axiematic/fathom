@@ -555,7 +555,7 @@
 /* Clients page */
 
 /* Team page */
-
+#clientCarousel {
     .carousel-item {
       min-height: 100%!important;
     }
@@ -607,7 +607,30 @@
             width: 65%;
           }
         }
+        .center {
+          background-color:#9088ff;
+          &::before {
+            background-color:#9088ff7e;
+            width: 8%;
+            right: 0%;
+          }
+        }
       }
+    }
+
+    body::-webkit-scrollbar {
+        width: 1em;
+    }
+     
+    body::-webkit-scrollbar-track {
+    /*     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+      background-color: transparent;
+    }
+     
+    body::-webkit-scrollbar-thumb {
+      background-color: green;
+      border-radius: 10px;
+    }
 
       // Replicate left subclass for center and right as above only including differences
 
@@ -628,7 +651,7 @@
         }
         .h5 {
           float: right;
-        } 
+        }
       }
 
       .carousel-slide-text-right {
@@ -643,6 +666,7 @@
           background-color:#ff56347e;
           position: absolute;
           top: 40px;
+          right: 0;
         }
       }
     }
@@ -721,6 +745,86 @@
     }
 
 /* Team page */
+
+/* Analytics*/
+
+    .analytics-banner {
+        background-image: url("/media/analytics.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 70vh;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .data-gathering {
+      background-color: #9088ff;
+      height: 35vh;
+    }
+
+    .modelling {
+      background-color: #121a25;
+      height: 35vh;
+    }
+
+    .applications {
+      background-color: #ff5534;
+      height: 35vh;
+    }
+
+    .consulting {
+      background-color: #9fa4a7;
+      height: 35vh;
+    }
+
+    .service {
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+
+      img {
+        min-width: 18%!important;
+      }
+
+      p {
+        text-align: center;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 0;
+
+        a {
+          text-decoration: none!important;
+        }
+      }
+    }
+
+    .product-icon {
+      img {
+        height:80%;
+        position: absolute;
+        left: 0;
+      }
+    }
+
+    // Combine above so that the only differing value is the background colour?
+
+    .analytics-left {
+      img {
+        height: 100%;
+      }
+    }
+
+    .analytics-right {
+      background-color: #9088ff; 
+      height: 70vh; 
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+
+/* Analytics*/
 
 /* Contact us page */
 
