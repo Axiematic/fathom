@@ -24,10 +24,10 @@
    url = "team/"
   parent = "about"
 
-# [[main]]
-#   name = "analytics"
-#   url = "#analytics"
-#   weight = 3
+[[main]]
+  name = "analytics"
+  url = "analytics/"
+  weight = 3
 
 # [[main]]
 #   name = "training"
