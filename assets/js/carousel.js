@@ -2,8 +2,9 @@ function initTeam() {
     $('#recipeCarousel').carousel({
         //interval: 1000
     })
+
     
-    $('.carousel .carousel-item').each(function(){
+    $('#clientCarousel .carousel-item').each(function(){
         var next = $(this).next();
         if (!next.length) {
             next = $(this).siblings(':first');
