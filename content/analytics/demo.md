@@ -47,35 +47,198 @@ subtitle = ""
 +++
 
 
-<div class="page-wrapper clients" style="background-color: white;">
-  <div class="row" style="margin-right: 0;">
-      <div class="col-6 analytics-banner">
-        <div class="clients-left">
-          <h3><strong class="orange-text">Knowing where to find the data.</strong></h3>
-          <h3 style="margin-top: 0%;"><strong class="orange-text">Knowing what to do with it.</strong></h3>
-        </div>
-      </div>
-      <div class="col-6 container-fluid">
-        <div class="row">
-            <div class="col-6 data-gathering service">
-              <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
-              <p><a href="">data gathering + preparation</a></p>
+<div class="row mx-auto my-auto page-wrapper">
+    <!-- <a data-target="#products" data-slide-to="3" href="javascript:void();">Test</a> -->
+    <div id="products" class="carousel slide h-100 w-100" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner" style="height:100%;">
+            <div class="carousel-item active h-100">
+                <div class="row" style="margin-right: 0;">
+                    <div class="col-6 analytics-banner">
+                      <div class="clients-left">
+                        <h3><strong class="orange-text">Knowing where to find the data.</strong></h3>
+                        <h3 style="margin-top: 0%;"><strong class="orange-text">Knowing what to do with it.</strong></h3>
+                      </div>
+                    </div>
+                    <div class="col-6 container-fluid">
+                      <div class="row">
+                          <div class="col-6 data-gathering service">
+                            <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
+                            <p><a id="myBtn1" href="javascript:void();">data gathering + preparation</a></p>
+                          </div>
+                        <div class="col-6 modelling service">
+                          <img src="/media/modelling.svg" alt="Modelling">
+                          <p><a id="myBtn2" href="javascript:void();">modelling</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 applications service">
+                          <img src="/media/applications.svg" alt="Applications & Reporting">
+                          <p><a href="">applications + reporting</a></p>
+                        </div>
+                        <div class="col-6 consulting service">
+                          <img src="/media/consulting.svg" alt="Consulting">
+                          <p><a href="">consulting</a></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
-          <div class="col-6 modelling service">
-            <img src="/media/modelling.svg" alt="Modelling">
-            <p><a href="">Modelling</a></p>
-          </div>
+            <div class="carousel-item h-100">
+              <div class="row">
+                <div class="col-6 analytics-left" style="height: 70vh;">
+                  <img class="d-blocks" src="/media/data-gathering.jpeg">
+                </div>
+                <div class="col-6 analytics-right" style="background-color: #9088ff;">
+                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
+                    <div class="col-2 product-icon">
+                      <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
+                    </div>
+                    <div class="col-10">
+                      <h3>Data Gathering + <br> Preparation</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <hr style="width: 100%;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 analytics-numbers">
+                      <h3>01</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>If appropriate data sets aren’t readily available, we can help find and gather them for you.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 analytics-numbers">
+                      <h3>02</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>We will then ‘clean’ the data, standardise formats, and generally make it ready for action.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 analytics-numbers">
+                      <h3>03</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>Finally, we’ll organise the clean data in a manner that’s easy and efficient to retrieve and use.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <div class="row">
+                <div class="col-6 analytics-left" style="height: 70vh;">
+                  <img class="d-blocks" src="/media/modelling.jpeg">
+                </div>
+                <div class="col-6 analytics-right" style="background-color: #121a25; ">
+                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
+                    <div class="col-2 product-icon">
+                      <img src="/media/modelling.svg" alt="Modelling">
+                    </div>
+                    <div class="col-10">
+                      <h3>Modelling</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <hr style="width: 100%;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 analytics-numbers">
+                      <h3>04</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>Of course, data on its own is meaningless – we need to extract intelligence from the data.</p>
+                      <p>There are various ways we can do this, depending on the objectives of the project. We are equally adept in almost every kind of optimisation, forecasting and modelling process and technique.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <div class="row">
+                <div class="col-6 analytics-left" style="height: 70vh;">
+                  <img class="d-blocks" src="/media/applications.jpeg">
+                </div>
+                <div class="col-6 analytics-right" style="background-color: #ff5534; ">
+                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
+                    <div class="col-2 product-icon">
+                      <img src="/media/applications.svg" alt="Applications & Reporting">
+                    </div>
+                    <div class="col-10">
+                      <h3>Applications + <br> Reporting</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <hr style="width: 100%;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 analytics-numbers">
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>Once you know how to get the answers you need from the data and models, what then?</p>
+                    </div>
+                    <div class="col-2 analytics-numbers">
+                      <h3>05</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>Apps can be developed that make the intelligence accessible and useful by allowing users to interact with it easily and in various ways..</p>
+                    </div>
+                    <div class="col-2 analytics-numbers">
+                      <h3>06</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>We can also arrange for reports to be automatically generated weekly, monthly or when activated by a trigger. Essentially, software automatically acquires any necessary data, generates plots, creates a document, and then sends it to specified recipients – without anyone needing to lift a finger.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <div class="row">
+                <div class="col-6 analytics-left" style="height: 70vh;">
+                  <img class="d-blocks" src="/media/consulting.jpeg">
+                </div>
+                <div class="col-6 analytics-right" style="background-color: #9fa4a7; ">
+                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
+                    <div class="col-2 product-icon">
+                      <img src="/media/consulting.svg" alt="Data Gathering & Preparation">
+                    </div>
+                    <div class="col-10">
+                      <h3>Consulting</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <hr style="width: 100%;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 analytics-numbers">
+                      <h3>01-<br>06?</h3>
+                    </div>
+                    <div class="col-10 analytics-text">
+                      <p>If you don’t know what aspects of Data Science you may need to solve your challenge (or even what any of this means) – fear not. We’ll sit down with you to figure it all out and show you what’s possible.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-6 applications service">
-            <img src="/media/applications.svg" alt="Applications & Reporting">
-            <p><a href="">applications + reporting</a></p>
-          </div>
-          <div class="col-6 consulting service">
-            <img src="/media/consulting.svg" alt="Consulting">
-            <p><a href="">consulting</a></p>
-          </div>
-        </div>
-      </div>
-  </div>
+    <a class="carousel-control-prev" href="#products" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#products" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
 </div>
