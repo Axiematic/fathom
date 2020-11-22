@@ -31,15 +31,15 @@
     }
 
     .orange-text {
-      color: #ff5534;
+      color: #ff5534!important;
     }
 
     .purple-text {
-        color: #9088ff;
+        color: #9088ff!important;
     }
 
     .white-text {
-        color: white;
+        color: white!important;
     }
 
 
@@ -504,23 +504,45 @@
 
 /* Clients page */
 
-    .clients {
-      background-color: white;
-    }
-
     .clients-left {
       padding-right:5%;
       padding-top: 3vw;
       padding-bottom: 3vw;
       padding-left: 5vw;
       padding-right: 5vw;
+
+      a {
+        color: #9088ff!important;
+      }
     }
 
     .clients-right {
-      background-color: #f2f3f5;
       padding-top: 3vw;
       padding-left: 5vw;
       margin: 0;
+      background-color: #f2f3f5; 
+      height: 70vh;
+    }
+
+    .clients-right-after {
+      padding-top: 3vw;
+      padding-left: 5vw;
+      margin: 0;
+      background-color: #9088ff; 
+      height: 70vh;
+
+      img {
+        padding: 5vh 0vh 5vh 0vh;
+      }
+    }
+
+    // Combine above two
+
+    .clients-carousel-hover {
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      width: 100%;
     }
 
     .center {
@@ -530,26 +552,12 @@
       width: 50%;
     }
 
-    .carousel-caption {
-      text-align: left;
+    .carousel-control-next-icon {
+      background-image: url("/media/arrow-next.png")!important;
     }
 
-    .carousel-logo {
-      background-color: #f2f3f5;
-      padding-top: 3vw;
-      padding-left: 5vw;
-      padding-right: 5vw;
-      margin: 0;
-      height: 70vh;
-    }
-
-    .carousel-quote {
-      background-color: #9088ff;
-      padding-top: 3vw;
-      padding-left: 5vw;
-      padding-right: 5vw;
-      margin: 0;
-      height: 70vh
+    .carousel-control-prev-icon {
+      background-image: url("/media/arrow-prev.png")!important;
     }
 
 /* Clients page */
