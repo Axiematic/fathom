@@ -805,6 +805,7 @@
         height:80%;
         position: absolute;
         left: 0;
+        bottom: 0;
       }
     }
 
@@ -817,10 +818,30 @@
     }
 
     .analytics-right {
-      background-color: #9088ff; 
       height: 70vh; 
       padding-left: 5%;
       padding-right: 5%;
+    }
+
+    .analytics-numbers {
+      text-align: center;
+
+      h3 {
+      margin-top: 0;
+      }
+    }
+
+    .analytics-text {
+      padding-right: 10vw;
+
+      p {
+        color: white;
+      }
+    }
+
+    hr {
+      background: white;
+      background-image: none;
     }
 
 
