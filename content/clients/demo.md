@@ -65,15 +65,16 @@ subtitle = ""
                 <!-- slide item -->
               <div class="clients-right">
                 <h3 class="orange-text">Get to know<br>some of our clients</h3>
-                <img src="/media/citizen_shipper.svg" class="d-block w-50 center" style="margin-top:15vh; margin-bottom: 15vh" alt="...">
+                <img src="/media/citizen-shipper.png" class="d-block w-50 center" style="margin-top:15vh; margin-bottom: 15vh" alt="...">
                 <h5 class="purple-text">Citizen Shipper <br>(USA)</h5>
               </div>
               <!-- hover item -->
               <div class="clients-carousel-hover">
                 <div class="clients-right-after">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
-                  <img src="/media/citizen-shipper-small.svg" alt="...">
-                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“ I work with charts myself,<br>and they showed me charts I’ve never seen before. <br><strong>They are very good at visualising data.</strong> ”</em></p>
+                  <img src="/media/citizen-shipper-small.png" alt="...">
+                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“They just got it. And then over-delivered.”</em></p>
+                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“I’m cost-conscious, and Fathom offer very good value.”</em></p>
                   <p class="white-text" >Richard Obousy,<br>CEO, CitizenShipper (USA)</p>
                 </div>
               </div>
@@ -92,7 +93,7 @@ subtitle = ""
                 <div class="clients-right-after">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/derivco-small.png" alt="...">
-                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“ When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I couldn’t figure it out myself in the first place.</strong> ”</em></p>
+                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I didn't figure it out myself.</strong>”</em></p>
                   <p class="white-text" >Natasha Singh,<br>Senior Data Analyst / Statistician, Derivco (SA)</p>
                 </div>
               </div>

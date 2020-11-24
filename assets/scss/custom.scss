@@ -552,12 +552,26 @@
       width: 50%;
     }
 
+    .carousel-control-next {
+      bottom: 0;
+      top: auto;
+    }
+
     .carousel-control-next-icon {
       background-image: url("/media/arrow-next.png")!important;
+      width: 6vh;
+      height: 6vh;
+    }
+
+    .carousel-control-prev {
+      bottom: 0;
+      top: auto;
     }
 
     .carousel-control-prev-icon {
       background-image: url("/media/arrow-prev.png")!important;
+      width: 6vh;
+      height: 6vh;
     }
 
 /* Clients page */
@@ -895,9 +909,9 @@
 
     .move {
       position: absolute; 
-      height: 35%;
-      bottom:0;
-      left: 46%;
+      height: 30%; 
+      bottom: 0; 
+      right: +8%;
     }
 
 /* Contact us page */
