@@ -73,11 +73,11 @@ subtitle = ""
                       <div class="row">
                         <div class="col-6 applications service">
                           <img src="/media/applications.svg" alt="Applications & Reporting">
-                          <p><a href="">applications + reporting</a></p>
+                          <p><a id="myBtn3" href="javascript:void();">applications + reporting</a></p>
                         </div>
                         <div class="col-6 consulting service">
                           <img src="/media/consulting.svg" alt="Consulting">
-                          <p><a href="">consulting</a></p>
+                          <p><a id="myBtn4" href="javascript:void();">consulting</a></p>
                         </div>
                       </div>
                     </div>
