@@ -766,6 +766,14 @@
       height: 50%;
     }
 
+    p {
+        .read-more {
+          border-style: solid; 
+          border-color: #dbdcde;
+          padding: 1vh 0 1vh 2vh;
+        }
+      }
+
 /* Team page */
 
 /* Analytics*/
@@ -777,8 +785,6 @@
         background-position: center;
         width: 100%;
         height: 70vh;
-        margin-top: auto;
-        margin-bottom: auto;
     }
 
     .data-gathering {
@@ -918,56 +924,68 @@
 
 /* Media queries */
 
-// @media screen and (min-width: 576px) {
-//   .hide-575 {
-//     display: none;
-//   }
-// }
 
-@media screen and (max-width: 576px) {
-  .hide-576 {
-    display: none;
+@media only screen and (max-width: 1550px) {
+  .clients-left {
+    padding-bottom: 0;
+  }
+
+  p {
+   font-size: 0.75rem;
   }
 }
 
-@media screen and (min-width: 577px) {
-  .hide-577 {
-    display: none;
+@media only screen and (max-width: 1140px) {
+  
+  .footer-social {
+    p {
+      font-size: 0.72rem;
+    }
+    a {
+      font-size: 0.72rem;
+    }
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hide-768 {
-    display: none;
+@media only screen and (max-width: 992px) {
+      .analytics-text {
+        padding-right: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-wrapper {
+    height: 60vh;
+  }
+
+  #clientCarousel .carousel-slide {
+  height: 60vh;
+  }
+
+.home-banner {
+  height: 60vh;
+  }
+
+  .logo-banner {
+    height: 60vh;
+  }
+
+  .clients-left {
+    height: 60vh;
+  }
+  .clients-right {
+    height: 60vh;
+  }
+  .clients-right-after {
+    height: 60vh;
+  }
+
+  .analytics-banner {
+    height: 60vh;
+  }
+
+  .analytics-right {
+    height: 60vh;
   }
 }
 
-@media screen and (max-width: 992px) {
-  .hide-992 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1200) {
-  .hide-1200 {
-    display: none;
-  }
-}
-
-/* Media queries */
-@media (max-width: 720px) {
-  .desktop-only {
-     display: none !important;
-  }
-  .mobile-only {
-    display: block !important;
-  }
-
-}
-
-.desktop-only {
-  display: block;
-}
-.mobile-only {
- display: none;
-}
