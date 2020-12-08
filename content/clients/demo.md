@@ -47,7 +47,7 @@ subtitle = ""
 +++
 
 <div class="page-wrapper" style="background-color: white;">
-  <div class="row" style="margin-right: 0; height: 70vh;">
+  <div class="row" style="margin-right: 0;">
       <div class="col-6" style="background-color: white;">
         <div class="clients-left">
           <h3 class="orange-text">What do you<br>want to know?</h3>
@@ -73,8 +73,8 @@ subtitle = ""
                 <div class="clients-right-after">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/citizen-shipper-small.png" alt="...">
-                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“They just got it. And then over-delivered.”</em></p>
-                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“I’m cost-conscious, and Fathom offer very good value.”</em></p>
+                  <p class="white-text" style="margin-right: 10vw;"><em>“They just got it. And then over-delivered.”</em></p>
+                  <p class="white-text" style="margin-right: 10vw;"><em>“I’m cost-conscious, and Fathom offer very good value.”</em></p>
                   <p class="white-text" >Richard Obousy,<br>CEO, CitizenShipper (USA)</p>
                 </div>
               </div>
@@ -93,7 +93,7 @@ subtitle = ""
                 <div class="clients-right-after">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/derivco-small.png" alt="...">
-                  <p class="white-text" style="margin-right: 10vw; font-size: 1.25rem;"><em>“When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I didn't figure it out myself.</strong>”</em></p>
+                  <p class="white-text" style="margin-right: 10vw;"><em>“When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I didn't figure it out myself.</strong>”</em></p>
                   <p class="white-text" >Natasha Singh,<br>Senior Data Analyst / Statistician, Derivco (SA)</p>
                 </div>
               </div>
