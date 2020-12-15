@@ -65,7 +65,7 @@ subtitle = ""
                                 <p class="white-text">Outside of work, Andrew continues to play with computers and data. He also enjoys cooking and gardening (and the outdoors in general). He’s a keen runner (both road and trail) and has slogged his way to a Comrades Marathon Green Number.</p>
                             </div>
                             <img src="/media/happy.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
-                            <h5 style="color: #ff5534;">Andrew is kind, <br>patient + enthusiastic</h5>
+                            <h5 style="color: #ff5534;">Andrew is patient, kind + enthusiastic</h5>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ subtitle = ""
                                 <p class="white-text">Recreationally, Megan is a seasoned runner, continually pushing herself for the next marathon or exploring new trails on the mountain. To engage a different part of her brain, she also enjoys painting, and one day aims to have her own creative studio.</p>
                             </div>
                             <img src="/media/happy-t.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem">
-                            <h5 style="color: #121a25;">Megan is passionate, <br>active + caring</h5>
+                            <h5 style="color: #121a25;">Megan is passionate, active + caring</h5>
                         </div>
                     </div>
                 </div>

@@ -17,9 +17,7 @@
   
     {{/* Display copyright license. */}}
     {{/*  {{ partial "site_footer_license" . }}  */}}
-  
-
-    <div class="container-fluid">
+  <div class="container-fluid cta-options d-sm-none d-md-block">
       <div class="row" style=" padding: 5% 4% 5% 0%; background-color: #f2f3f5;">
           <div class="col-sm footer-section">
               <div class="row footer-heading">
@@ -79,6 +77,91 @@
               </div>
           </div>
         </div>
+  </div>
+
+{{/*  displays from 767wide to 576 */}}
+
+  <div class="accordion d-none d-block d-md-none" id="contact-cta">
+    <div class="card footer-section">
+      <div class="footer-heading" id="headingOne">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <p class="footer-heading-text"><strong>Challenge us</strong></p>
+          </button>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#contact-cta">
+        <div class="card-body offset-5vw">
+        <div class="row" style="padding-top: 3%;">
+          <p>What business problem is keeping you up? Share it, and we'll come back with some ideas on how to solve it.</p>
+        </div>
+        <div class="row">
+          <a href="/contact-us" class="footer-statement contact-cta" type="button" class="btn btn-primary">How can we help?</a>
+        </div>
+        <div class="row">
+          <img src="/media/challenge.svg" class="cta-icon purple-text" alt="Challenge us">
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card footer-section">
+      <div class="footer-heading" id="headingTwo">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p class="footer-heading-text"><strong>Join us</strong></p>
+          </button>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#contact-cta">
+        <div class="card-body offset-5vw">
+        <div class="row" style="padding-top: 3%;">
+          <p>We're always looking for outstanding remote talent. If you believe you have 'IQ with EQ', please get in touch.</p>
+        </div>
+        <div class="row">
+          <a href="/contact-us" class="footer-statement contact-cta" type="button" class="btn btn-primary">Apply to collaborate</a>
+        </div>
+        <div class="row">
+          <img src="/media/join.svg" class="cta-icon" alt="Join us">
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card footer-section">
+      <div class="footer-heading" id="headingThree">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <p class="footer-heading-text"><strong>Hear from us</strong></p>
+          </button>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#contact-cta">
+        <div class="card-body offset-5vw">
+        <div class="row" style="padding-top: 3%;">
+          <p>We run regular training courses. Subscribe to stay up to date with what's happening, when and where.</p>
+        </div>
+        <div class="row">
+          <a href="/contact-us" class="footer-statement contact-cta" type="button" class="btn btn-primary">Receive training newsletters</a>
+        </div>
+        <div class="row">
+          <img src="/media/hear.svg" class="cta-icon" alt="Hear from us">
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card footer-section">
+      <div class="footer-heading" id="headingFour">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <p class="footer-heading-text"><strong>Contact us</strong></p>
+          </button>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#contact-cta">
+        <div class="card-body offset-5vw">
+        <div class="row" style="padding-top: 3%;">
+          <p>We're based in Durban, South Africa, but engage with clients everywhere and anywhere.</p>
+        </div>
+        <div class="row">
+          <a href="/contact-us" class="footer-statement contact-cta" type="button" class="btn btn-primary">Get in touch</a>
+        </div>
+        <div class="row">
+          <img src="/media/contact.svg" class="cta-icon" alt="Contact us">
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 {{/*  Modals  */}}
@@ -151,29 +234,28 @@
 
 {{/*  SM links  */}}
 
-<div class="container-fluid footer-social">
-    <div class="row" style="padding: 1% 0.1%;">
-        <div class="col-6 col-md-4 col-lg-2 footer-center">
-            <img src="/media/logo_white.svg" alt="Fathom">
-        </div>
-        <div class="col-2 col-lg-2 border-left footer-center d-none d-lg-flex">
-            <p style="margin-bottom: 0%; text-align: center;">© 2020 Fathom Data</p>
-        </div>
-        <div class="col-lg- col-lg-4 border-left footer-left mr-auto d-none d-lg-flex">
-            <a href="" style="margin: 0% 2% 0% 2%;">privacy policy</a>
-            <a href="" style="margin: 0% 2% 0% 2%;">terms</a>
-            <a href="" style="margin: 0% 2% 0% 2%;">legal</a>
-        </div>
+    <div class="container-fluid footer-social">
+        <div class="row" style="padding: 1% 0.1%;">
+            <div class="col-6 col-md-4 col-lg-2 footer-center">
+                <img src="/media/logo_white.svg" alt="Fathom">
+            </div>
+            <div class="col-2 col-lg-2 border-left footer-center d-none d-lg-flex">
+                <p style="margin-bottom: 0%; text-align: center;">© 2020 Fathom Data</p>
+            </div>
+            <div class="col-lg- col-lg-4 border-left footer-left mr-auto d-none d-lg-flex">
+                <a href="" style="margin: 0% 2% 0% 2%;">privacy policy</a>
+                <a href="" style="margin: 0% 2% 0% 2%;">terms</a>
+                <a href="" style="margin: 0% 2% 0% 2%;">legal</a>
+            </div>
 
-        <div class="col-6 col-md-4 col-lg-2" style="display:flex; justify-content:center;">
-            <img src="/media/facebook.svg" class="social-icon" alt="Fathom on Facebook">
-            <img src="/media/instagram.svg" class="social-icon" alt="Fathom on Instagram">
-            <img src="/media/twitter.svg" class="social-icon" alt="Fathom on Twitter">
-        </div>
-        <div class="col-2 col-md-4 col-lg-2 d-none d-md-flex border-left" style="display:flex; justify-content:center;">
-            <img src="/media/signature_white.svg" style="margin-top: 2%;" alt="Fathom">
+            <div class="col-6 col-md-4 col-lg-2" style="display:flex; justify-content:center;">
+                <img src="/media/facebook.svg" class="social-icon" alt="Fathom on Facebook">
+                <img src="/media/instagram.svg" class="social-icon" alt="Fathom on Instagram">
+                <img src="/media/twitter.svg" class="social-icon" alt="Fathom on Twitter">
+            </div>
+            <div class="col-2 col-md-4 col-lg-2 d-none d-md-flex border-left" style="display:flex; justify-content:center;">
+                <img src="/media/signature_white.svg" style="margin-top: 2%;" alt="Fathom">
+            </div>
         </div>
     </div>
-</div>
-
   </footer>
