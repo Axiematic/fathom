@@ -641,6 +641,15 @@
       }
     }
 
+    .bio {
+      p {
+        color: white;
+      }
+    }
+
+    .position {
+      color: white;
+    }
     body::-webkit-scrollbar {
         width: 1em;
     }
@@ -776,6 +785,39 @@
       }
 
 /* Team page */
+
+/* Team internal */
+
+      .internal-team-basic {
+        padding-right:5%;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+        h4 {
+          color: white;
+        }
+      }
+      .internal-team-questions {
+        padding-right:5%;
+        padding-bottom: 3vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+      .team-icon {
+        float: left;
+        width: 2rem;
+        margin: 0.5rem;
+      }
+      .internal-team {
+        .social-icon {
+              width: 2rem;
+              margin: 0.3rem;
+        }
+      }
+
+/* Team internal */
 
 /* Analytics*/
 
