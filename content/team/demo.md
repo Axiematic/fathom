@@ -47,7 +47,7 @@ subtitle = ""
 +++
 
 <div class="row mx-auto my-auto page-wrapper">
-    <div id="clientCarousel" class="carousel slide w-100" data-ride="carousel" data-interval=false>
+    <div id="clientCarousel" class="carousel slide w-100" data-ride="carousel" data-interval=false data-interval="4500">
         <div class="carousel-inner" role="listbox" style="height:100%;">
             <div class="carousel-item active">
                 <div class="carousel-slide" style="background-image: url(/media/andrew.jpeg)">
@@ -57,12 +57,12 @@ subtitle = ""
                     <!-- the hover thing -->
                     <div class="carousel-slide-hover slide-hover-one">
                         <div class="slide-inner">
-                            <h3 style="margin-bottom: 0;">Andrew Collier</h3>
-                            <p class="white-text"><i>Founder +<br> Lead Data Scientist</i></p>
+                            <h3>Andrew Collier</h3>
+                            <p class="position"><i>Founder +<br> Lead Data Scientist</i></p>
                             <div class="bio">
-                                <p class="white-text">Andrew holds a Masters Degree in Nuclear Physics (North-West University, South Africa), and a PhD in Space Physics (KTH Royal institute of Technology, Sweden).</p>
-                                <p class="white-text">Having worked on all seven continents, and with experience in academic and commercial environments, Andrew has honed his skills in research, data analysis and scientific computing. Equally importantly, he has refined his ability to teach and communicate, ensuring his knowledge and insights are conveyed in an intuitive and easily accessible way to experts and laymen alike. Technical content in plain English.</p>
-                                <p class="white-text">Outside of work, Andrew continues to play with computers and data. He also enjoys cooking and gardening (and the outdoors in general). He’s a keen runner (both road and trail) and has slogged his way to a Comrades Marathon Green Number.</p>
+                                <p>Andrew holds a Masters Degree in Nuclear Physics (North-West University, South Africa), and a PhD in Space Physics (KTH Royal institute of Technology, Sweden).</p>
+                                <p>Having worked on all seven continents, and with experience in academic and commercial environments, Andrew has honed his skills in research, data analysis and scientific computing. Equally importantly, he has refined his ability to teach and communicate, ensuring his knowledge and insights are conveyed in an intuitive and easily accessible way to experts and laymen alike. Technical content in plain English.</p>
+                                <p>Outside of work, Andrew continues to play with computers and data. He also enjoys cooking and gardening (and the outdoors in general). He’s a keen runner (both road and trail) and has slogged his way to a Comrades Marathon Green Number.</p>
                             </div>
                             <img src="/media/happy.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
                             <h5 style="color: #ff5534;">Andrew is patient, kind + enthusiastic</h5>
@@ -79,12 +79,12 @@ subtitle = ""
                     <div class="carousel-slide-hover slide-hover-two">
                         <div class="slide-inner">
                             <h3>Megan Beckett</h3>
-                            <p class="white-text"><i>Data Scientist</i></p>
+                            <p class="position"><i>Data Scientist</i></p>
                             <div class="bio">
-                                <p class="white-text">The phrase: ‘Scientifically creative; creatively scientific’ aptly describes Megan’s approach to work and life.</p>
-                                <p class="white-text">With both a Masters Degree in Molecular Biology and having worked in an educational technology start-up, Megan brings a unique combination of skills to the world of Data Science, with the ability to delve deeply into data while also maintaining a high level picture.</p>
-                                <p class="white-text">Megan is a firm believer in supporting other women and women-identifying individuals, particularly in traditionally male-dominated fields.</p>
-                                <p class="white-text">Recreationally, Megan is a seasoned runner, continually pushing herself for the next marathon or exploring new trails on the mountain. To engage a different part of her brain, she also enjoys painting, and one day aims to have her own creative studio.</p>
+                                <p>The phrase: ‘Scientifically creative; creatively scientific’ aptly describes Megan’s approach to work and life.</p>
+                                <p>With both a Masters Degree in Molecular Biology and having worked in an educational technology start-up, Megan brings a unique combination of skills to the world of Data Science, with the ability to delve deeply into data while also maintaining a high level picture.</p>
+                                <p>Megan is a firm believer in supporting other women and women-identifying individuals, particularly in traditionally male-dominated fields.</p>
+                                <p>Recreationally, Megan is a seasoned runner, continually pushing herself for the next marathon or exploring new trails on the mountain. To engage a different part of her brain, she also enjoys painting, and one day aims to have her own creative studio.</p>
                             </div>
                             <img src="/media/happy-t.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem">
                             <h5 style="color: #121a25;">Megan is passionate, active + caring</h5>
@@ -92,32 +92,50 @@ subtitle = ""
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <div class="carousel-slide carousel-slide-right" style="background-image: url(/media/emma.jpg)">
                     <div class="carousel-slide-text-right"> 
                         <h5 class="offset-5vw f-name">Emma</h5> 
-                    </div>
+                    </div> -->
                     <!-- the hover thing -->
-                    <div class="carousel-slide-hover slide-hover-three">
+                    <!-- <div class="carousel-slide-hover slide-hover-three">
                         <div class="slide-inner">
                             <h3>Emma Collier</h3>
-                            <p class="white-text"><i>Junior Developer +<br> Office Administrator</i></p>
+                            <p  class="position"><i>Junior Developer +<br> Office Administrator</i></p>
                             <div class="bio">
-                                <p class="white-text">As a junior developer, Emma is involved in all areas of development from design, to implementation, to testing. She also fulfils administrative duties for the business – ensuring projects run smoothly and the team is kept in check! .</p>
-                                <p class="white-text">Fathom believes in developing and nurturing talent, and Emma believes she benefits from this in terms of continuously learning new skills and getting to apply them to interesting projects.</p>
-                                <p class="white-text">Before joining the Fathom team, Emma was employed as a junior draughtsman in a mechanical engineering firm, and outside of work Emma’s passions include oriental dancing, DIY, and hiking with her dog ‘Mopsy’.</p>
+                                <p>As a junior developer, Emma is involved in all areas of development from design, to implementation, to testing. She also fulfils administrative duties for the business – ensuring projects run smoothly and the team is kept in check! .</p>
+                                <p">Fathom believes in developing and nurturing talent, and Emma believes she benefits from this in terms of continuously learning new skills and getting to apply them to interesting projects.</p>
+                                <p >Before joining the Fathom team, Emma was employed as a junior draughtsman in a mechanical engineering firm, and outside of work Emma’s passions include oriental dancing, DIY, and hiking with her dog ‘Mopsy’.</p>
                             </div>
                             <img src="/media/surprised-t.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem">
                             <h5 style="color: white;">Emma is creative, <br>excited + optimistic</h5>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </div> -->
+            <!-- <div class="carousel-item">
                 <div class="carousel-slide" style="background-image: url(/media/left.svg)">
-                    <!-- the hover thing -->
                     <div class="carousel-slide-hover slide-hover-three">
                         <p>wtf</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="carousel-item">
+                <div class="carousel-slide" style="background-image: url(/media/astrid.jpg)">
+                    <div class="carousel-slide-text-right"> 
+                        <h5 class="offset-5vw f-name">Astrid</h5> 
+                    </div>
+                    <!-- the hover thing -->
+                    <div class="carousel-slide-hover slide-hover-three">
+                        <div class="slide-inner">
+                            <h3>Astrid Radermacher</h3>
+                            <p class="position"><i>Data Scientist</i></p>
+                            <div class="bio">
+                                <p>Astrid holds a Masters Degree in Molecular and Cell Biology as well as a PhD in Plant Molecular Biology (Univeristy of Cape Town, South Africa).</p>
+                            </div>
+                            <img src="/media/happy-t.svg" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
+                            <h5 style="color: #121a25;">Astrid is Lively, wholesome + rigorous</h5>
+                        </div>
                     </div>
                 </div>
             </div>
