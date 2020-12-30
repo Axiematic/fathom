@@ -3,9 +3,9 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-title = "Analytics"  # Add a page title.
-summary = "Hello!"  # Add a page description.
-date = "2019-01-01T00:00:00Z"  # Add today's date.
+title = "Team Fathom"  # Add a page title.
+summary = "Get to know the core Fathom team!"  # Add a page description.
+date = ""  # Add today's date.
 type = "widget_page"  # Page type is a Widget Page
 
 [design]
