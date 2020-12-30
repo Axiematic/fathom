@@ -1033,12 +1033,32 @@
     height: 60vh;
   }
 
+  .service-options {
+    height: 60vh;
+  }
+
   .analytics-right {
     height: 60vh;
   }
 
   .move {
     height: 15%;
+  }
+
+  .data-gathering {
+    height: 30vh;
+  }
+
+  .modelling {
+    height: 30vh;
+  }
+
+  .applications {
+    height: 30vh;
+  }
+
+  .consulting {
+    height: 30vh;
   }
 }
 
@@ -1052,8 +1072,24 @@
   }
 
   .contact-left {
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.gradient-overlay {
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ff5534); 
+  position: absolute; 
+  bottom:0; 
+  width: 8%; 
+  height: 100%; 
+  left: 66%; 
+  transform: translate(-50%);
+}
+
+.move {
+  position: absolute;
+  bottom: 0;
+  right: +7%;
 }
 }
 

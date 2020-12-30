@@ -59,7 +59,7 @@ subtitle = ""
                         <h3 style="margin-top: 0%;"><strong class="orange-text">Knowing what to do with it.</strong></h3>
                       </div>
                     </div>
-                    <div class="col-6 container-fluid">
+                    <div class="col-6 container-fluid service-options">
                       <div class="row">
                           <div class="col-6 data-gathering service">
                             <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">

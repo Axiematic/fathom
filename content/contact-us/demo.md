@@ -50,7 +50,7 @@ subtitle = ""
 
 <div class="page-wrapper" style="margin-left: 5vw;">
   <div class="row h-100" style="margin-right: 0; position: relative;">
-    <div class="col-6 contact-left">
+    <div class="col-8 col-md-6 contact-left">
           <h3><strong class="purple-text">Let's get to know each<br>other better</strong></h3>
           <p class="white-text">We're based in Durban, South Africa, but we can work with you wherever in the world you are.</p>
           <p class="white-text">Get in touch to arrange a face-to-face chat or let's meet online. Either way, we look forward to getting under the skin of your challenges and making a difference to your business.</p>
@@ -58,7 +58,7 @@ subtitle = ""
           <p class="orange-text">Andrew Collier <br>+27 (0)83 350 7699 <br> info@fathom.biz</p>
           <img src="/media/contact-purple.svg" class="move" alt="Contact us">
     </div>
-    <div class="col-6 contact-right"></div>
+    <div class="col-4 col-md-6 contact-right"></div>
     <div class="gradient-overlay"></div>
   </div>
 </div>
