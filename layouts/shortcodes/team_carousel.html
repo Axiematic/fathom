@@ -17,7 +17,7 @@
                             {{ .bio | safeHTML }}
                         </div>
                         <img src="{{.emotion}}" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
-                        <h5 style="color: #ff5534;">{{ index ($fname) 0 }} is  {{ .traits }} </h5>
+                        <h5 class="{{.traitClass}}">{{ index ($fname) 0 }} is  {{ .traits }} </h5>
                     </div>
                 </div>
             </div>
