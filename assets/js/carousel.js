@@ -28,4 +28,6 @@ function initTeam() {
     });
 }
 
-initTeam();
+if (window.innerWidth > 450) {
+    initTeam();
+}

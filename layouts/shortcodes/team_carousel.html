@@ -1,0 +1,36 @@
+<div id="clientCarousel" class="carousel slide w-100" data-ride="carousel" data-interval=4500>
+    <div class="carousel-inner" role="listbox" style="height:100%;">
+        {{ range $index, $slide := .Site.Data.team.slides }}
+        {{ $fname := split .name " "}}
+       
+        <div class="carousel-item {{ if (eq $index 0) }} active {{end}}">
+            <div class="carousel-slide" style="background-image: url({{.profilePic}})">
+                <div class="{{.nameBand}}"> 
+                    <h5 class="offset-5vw f-name">{{ index ($fname) 0 }}</h5> 
+                </div>
+                <!-- the hover thing -->
+                <div class="carousel-slide-hover {{.class}}">
+                    <div class="slide-inner">
+                        <h3>{{ .name }}</h3>
+                        <p class="position">{{ .position | safeHTML }}</p>
+                        <div class="bio">
+                            {{ .bio | safeHTML }}
+                        </div>
+                        <img src="{{.emotion}}" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
+                        <h5 class="{{.traitClass}}">{{ index ($fname) 0 }} is  {{ .traits }} </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+    <!--<a class="carousel-control-prev" href="#clientCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#clientCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+    </div>
+</div>
