@@ -627,20 +627,38 @@
           position: absolute;
           bottom: 40px;
         }
-        .left {
-          background-color:#ff5534;
-          &::before {
-            background-color:#ff56347e;
-            width: 65%;
-          }
+      }
+
+      .carousel-slide-text-purple {
+        position:absolute;
+        height:40px;
+        background-color:#9088ff;
+        width:100%;
+        &::before {
+          content: "";
+          height: 40px;
+          width: 8%;
+          background-color:#9088ff7e;
+          position: absolute;
+          top: 40px;
+          right: 0;
         }
-        .center {
-          background-color:#9088ff;
-          &::before {
-            background-color:#9088ff7e;
-            width: 8%;
-            right: 0%;
-          }
+      }
+
+      .carousel-slide-text-three {
+        position:absolute;
+        bottom:0;
+        height:40px;
+        background-color:#ff5534;
+        width:100%;
+        &::before {
+          right: 0;
+          content: "";
+          height: 40px;
+          width: 65%;
+          background-color:#ff56347e;
+          position: absolute;
+          bottom: 40px;
         }
       }
     }
@@ -667,44 +685,6 @@
       background-color: green;
       border-radius: 10px;
     }
-
-      // Replicate left subclass for center and right as above only including differences
-
-      .carousel-slide-text-center {
-        position:absolute;
-        bottom:0;
-        height:40px;
-        background-color:#9088ff;
-        width:100%;
-        &::before {
-          content: "";
-          height: 40px;
-          width: 8%;
-          background-color:#9088ff7e;
-          position: absolute;
-          bottom: 40px;
-          right: 0;
-        }
-        .h5 {
-          float: right;
-        }
-      }
-
-      .carousel-slide-text-right {
-        position:absolute;
-        height:40px;
-        background-color:#ff5534;
-        width:100%;
-        &::before {
-          content: "";
-          height: 40px;
-          width: 65%;
-          background-color:#ff56347e;
-          position: absolute;
-          top: 40px;
-          right: 0;
-        }
-      }
     }
 
     .f-name {
