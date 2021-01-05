@@ -89,11 +89,11 @@ subtitle = ""
                   <img class="d-blocks" src="/media/data-gathering.jpeg">
                 </div>
                 <div class="col-6 analytics-right" style="background-color: #9088ff;">
-                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
-                    <div class="col-2 product-icon">
+                  <div class="row" style="padding-top: 3vw;">
+                    <div class="col-1 product-icon">
                       <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
                     </div>
-                    <div class="col-10">
+                    <div class="col-11">
                       <h3>Data Gathering + <br> Preparation</h3>
                     </div>
                   </div>
@@ -103,26 +103,26 @@ subtitle = ""
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>01</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>If appropriate data sets aren’t readily available, we can help find and gather them for you.</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>02</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>We will then ‘clean’ the data, standardise formats, and generally make it ready for action.</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>03</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>Finally, we’ll organise the clean data in a manner that’s easy and efficient to retrieve and use.</p>
                     </div>
                   </div>
@@ -135,11 +135,11 @@ subtitle = ""
                   <img class="d-blocks" src="/media/modelling.jpeg">
                 </div>
                 <div class="col-6 analytics-right" style="background-color: #121a25; ">
-                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
-                    <div class="col-2 product-icon">
+                  <div class="row" style="padding-top: 3vw;">
+                    <div class="col-1 product-icon">
                       <img src="/media/modelling.svg" alt="Modelling">
                     </div>
-                    <div class="col-10">
+                    <div class="col-11">
                       <h3>Modelling</h3>
                     </div>
                   </div>
@@ -149,10 +149,10 @@ subtitle = ""
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>04</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>Of course, data on its own is meaningless – we need to extract intelligence from the data.</p>
                       <p>There are various ways we can do this, depending on the objectives of the project. We are equally adept in almost every kind of optimisation, forecasting and modelling process and technique.</p>
                     </div>
@@ -166,11 +166,11 @@ subtitle = ""
                   <img class="d-blocks" src="/media/applications.jpeg">
                 </div>
                 <div class="col-6 analytics-right" style="background-color: #ff5534; ">
-                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
-                    <div class="col-2 product-icon">
+                  <div class="row" style="padding-top: 3vw;">
+                    <div class="col-1 product-icon">
                       <img src="/media/applications.svg" alt="Applications & Reporting">
                     </div>
-                    <div class="col-10">
+                    <div class="col-11">
                       <h3>Applications + <br> Reporting</h3>
                     </div>
                   </div>
@@ -180,21 +180,21 @@ subtitle = ""
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>Once you know how to get the answers you need from the data and models, what then?</p>
                     </div>
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>05</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>Apps can be developed that make the intelligence accessible and useful by allowing users to interact with it easily and in various ways..</p>
                     </div>
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>06</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>We can also arrange for reports to be automatically generated weekly, monthly or when activated by a trigger. Essentially, software automatically acquires any necessary data, generates plots, creates a document, and then sends it to specified recipients – without anyone needing to lift a finger.</p>
                     </div>
                   </div>
@@ -208,10 +208,10 @@ subtitle = ""
                 </div>
                 <div class="col-6 analytics-right" style="background-color: #9fa4a7; ">
                   <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
-                    <div class="col-2 product-icon">
+                    <div class="col-1 product-icon">
                       <img src="/media/consulting.svg" alt="Data Gathering & Preparation">
                     </div>
-                    <div class="col-10">
+                    <div class="col-11">
                       <h3>Consulting</h3>
                     </div>
                   </div>
@@ -221,10 +221,10 @@ subtitle = ""
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-2 analytics-numbers">
+                    <div class="col-1 analytics-numbers">
                       <h3>01-<br>06?</h3>
                     </div>
-                    <div class="col-10 analytics-text">
+                    <div class="col-11 analytics-text">
                       <p>If you don’t know what aspects of Data Science you may need to solve your challenge (or even what any of this means) – fear not. We’ll sit down with you to figure it all out and show you what’s possible.</p>
                     </div>
                   </div>

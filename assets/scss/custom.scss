@@ -882,14 +882,15 @@
 
     .analytics-numbers {
       text-align: center;
-
+      padding-left: 0;
+      padding-right: 0;
       h3 {
       margin-top: 0;
       }
     }
 
     .analytics-text {
-      padding-right: 10vw;
+      padding-right: 5vw;
 
       p {
         color: white;
