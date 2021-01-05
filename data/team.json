@@ -4,7 +4,7 @@
             "profilePic": "/media/andrew.jpeg",
             "class": "slide-hover-one",
             "name" : "Andrew Collier",
-            "nameBand": "carousel-slide-text left",
+            "nameBand": "carousel-slide-text",
             "position": "<i>Founder +<br> Lead Data Scientist</i>",
             "bio": " <p>Andrew holds a Masters Degree in Nuclear Physics (North-West University, South Africa), and a PhD in Space Physics (KTH Royal institute of Technology, Sweden).</p><p>Having worked on all seven continents, and with experience in academic and commercial environments, Andrew has honed his skills in research, data analysis and scientific computing. Equally importantly, he has refined his ability to teach and communicate, ensuring his knowledge and insights are conveyed in an intuitive and easily accessible way to experts and laymen alike. Technical content in plain English.</p><p>Outside of work, Andrew continues to play with computers and data. He also enjoys cooking and gardening (and the outdoors in general). He’s a keen runner (both road and trail) and has slogged his way to a Comrades Marathon Green Number.</p>",
             "traits": "patient, kind + enthusiastic",
@@ -15,7 +15,7 @@
             "profilePic": "/media/megan.jpg",
             "class": "slide-hover-two",
             "name" : "Megan Beckett",
-            "nameBand": "carousel-slide-text-center",
+            "nameBand": "carousel-slide-text-purple",
             "position": "<i>Data Scientist</i>",
             "bio": "<p>The phrase: ‘Scientifically creative; creatively scientific’ aptly describes Megan’s approach to work and life.</p><p>With both a Masters Degree in Molecular Biology and having worked in an educational technology start-up, Megan brings a unique combination of skills to the world of Data Science, with the ability to delve deeply into data while also maintaining a high level picture.</p><p>Megan is a firm believer in supporting other women and women-identifying individuals, particularly in traditionally male-dominated fields.</p><p>Recreationally, Megan is a seasoned runner, continually pushing herself for the next marathon or exploring new trails on the mountain. To engage a different part of her brain, she also enjoys painting, and one day aims to have her own creative studio.</p>",
             "traits": "passionate, active + caring",
@@ -23,13 +23,46 @@
             "emotion": "/media/happy-t.svg"
         },
         {
+            "profilePic": "/media/astrid.jpg",
+            "class": "slide-hover-three",
+            "name" : "Astrid Radermacher",
+            "nameBand": "carousel-slide-text-three",
+            "position": "<i>Junior Data Scientist</i>",
+            "bio": "<p>Astrid recently completed her PhD in Molecular and Cell Biology (University of Cape Town), which afforded her the opportunity to work in labs in SA, Australia and Germany. During her PhD she discovered R, which has led to a full-blown love affair with Data Science. As a junior data scientist, she is enjoying getting familiar with the way industry works differently to academia, and getting exposure to many different kinds of data and modelling techniques. Astrid loves sharing knowledge and coding skills in a relatable and human way, particularly with marginalised folks in STEM. When she is not writing code or teaching, you can find her having deep chats with friends (while wearing a mask), sewing her own outfits, cycling with her wife or feasting on something delicious.</p>",
+            "traits": "lively, wholesome + rigorous",
+            "traitClass": "navy-text",
+            "emotion": "/media/surprised-t.svg"
+        },
+        {
+            "profilePic": "/media/laura.jpg",
+            "class": "slide-hover-one",
+            "name" : "Laura Calcagni ",
+            "nameBand": "carousel-slide-text-purple",
+            "position": "<i>Junior Data Scientist</i>",
+            "bio": "<p>Laura holds a Licenciate (equivalent to an MSc. degree) in Medical Physics, a Postgraduate Diploma in Data Intelligence and is currently finishing a PhD in High Energy Physics (all at National University of La Plata, Argentina).</p><p>Her academic background and also having been part of the Pierre Auger Cosmic Ray Observatory allowed her to develop skills in scientific computing, research and data analysis. Laura also has experience in the commercial sector, both in the area of Biotechnology and Data Science Consulting. As a Data Scientist, she is interested in the ethical use of data and would like to contribute more to this field.</p><p>Outside of work, Laura likes to experiment with data and new technologies and, on the artistic side, she enjoys playing the piano since she was a child and designing t-shirt illustrations related to science, literature, music or painting. </p>",
+            "traits": "analytical, persistent + self-confident",
+            "traitClass": "orange-text",
+            "emotion": "/media/happy.svg"
+        },
+        {
+            "profilePic": "/media/matt.jpg",
+            "class": "slide-hover-two",
+            "name" : "Matthew Dennis",
+            "nameBand": "carousel-slide-text",
+            "position": "<i>Junior Data Scientist</i>",
+            "bio": "<p>Matthew has an unusually diverse background, having worked as a school teacher and a composer of classical music prior to his current role as a data scientist. Working as a teacher refined his ability to clearly convey complex ideas, and he brings an emphasis on quality and precision to his work with data. Matthew particularly enjoys using R, and gets excited about projects that involve web scraping or building applications with shiny.  Outside of work, you’ll probably find Matthew running – either on the slopes of Table Mountain, after a frisbee, or after his one-year-old daughter.</p>",
+            "traits": "Introverted, adventurous + relaxed",
+            "traitClass": "navy-text",
+            "emotion": "/media/happy-t.svg"
+        },
+        {
             "profilePic": "/media/emma.jpg",
             "class": "slide-hover-three",
             "name" : "Emma Collier",
-            "nameBand": "carousel-slide-text-center",
+            "nameBand": "carousel-slide-text-purple",
             "position": "<i>Junior Developer +<br> Office Administrator</i>",
             "bio": "<p>As a junior developer, Emma is involved in all areas of development from design, to implementation, to testing. She also fulfils administrative duties for the business – ensuring projects run smoothly and the team is kept in check! .</p><p>Fathom believes in developing and nurturing talent, and Emma believes she benefits from this in terms of continuously learning new skills and getting to apply them to interesting projects.</p><p >Before joining the Fathom team, Emma was employed as a junior draughtsman in a mechanical engineering firm, and outside of work Emma’s passions include oriental dancing, DIY, and hiking with her dog ‘Mopsy’.</p>",
-            "traits": "Emma is creative, excited + optimistic",
+            "traits": "creative, excited + optimistic",
             "traitClass": "navy-text",
             "emotion": "/media/surprised-t.svg"
         }
