@@ -30,6 +30,10 @@
       color: black;
     }
 
+    .pt-3vw {
+      padding-top: 3vw;
+    }
+
     .orange-text {
       color: #ff5534!important;
     }
@@ -46,6 +50,21 @@
       color: #121a25!important;
     }
 
+    .bg-purple {
+      background-color: #9088ff;
+    }
+
+    .bg-navy {
+      background-color: #121a25;
+    }
+
+    .bg-orange {
+      background-color: #ff5534;
+    }
+
+    .bg-grey {
+      background-color: #9fa4a7;
+    }
 
 /* General */
 
@@ -602,6 +621,10 @@
           transform: translateX(0);
       }
 
+    .carousel-inner {
+      height:100%;
+    }
+
     .carousel-item.active, .carousel-item-next, .carousel-item-prev {
         display: flex;
     }
@@ -869,6 +892,7 @@
     // Combine above so that the only differing value is the background colour?
 
     .analytics-left {
+      height: 70vh;
       img {
         height: 100%;
       }

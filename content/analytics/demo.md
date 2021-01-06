@@ -48,15 +48,14 @@ subtitle = ""
 
 
 <div class="row mx-auto my-auto page-wrapper">
-    <!-- <a data-target="#products" data-slide-to="3" href="javascript:void();">Test</a> -->
     <div id="products" class="carousel slide h-100 w-100" data-ride="carousel" data-interval="false">
-        <div class="carousel-inner" style="height:100%;">
+        <div class="carousel-inner">
             <div class="carousel-item active h-100">
-                <div class="row" style="margin-right: 0;">
+                <div class="row mr-0">
                     <div class="col-6 analytics-banner">
                       <div class="clients-left">
                         <h3><strong class="orange-text">Knowing where to find the data.</strong></h3>
-                        <h3 style="margin-top: 0%;"><strong class="orange-text">Knowing what to do with it.</strong></h3>
+                        <h3 class="mt-0"><strong class="orange-text">Knowing what to do with it.</strong></h3>
                       </div>
                     </div>
                     <div class="col-6 container-fluid service-options">
@@ -85,11 +84,11 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left" style="height: 70vh;">
+                <div class="col-6 analytics-left">
                   <img class="d-blocks" src="/media/data-gathering.jpeg">
                 </div>
-                <div class="col-6 analytics-right" style="background-color: #9088ff;">
-                  <div class="row" style="padding-top: 3vw;">
+                <div class="col-6 analytics-right bg-purple">
+                  <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
                     </div>
@@ -99,7 +98,7 @@ subtitle = ""
                   </div>
                   <div class="row">
                     <div class="col-12">
-                      <hr style="width: 100%;">
+                      <hr class="w-100">
                     </div>
                   </div>
                   <div class="row">
@@ -131,11 +130,11 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left" style="height: 70vh;">
+                <div class="col-6 analytics-left">
                   <img class="d-blocks" src="/media/modelling.jpeg">
                 </div>
-                <div class="col-6 analytics-right" style="background-color: #121a25; ">
-                  <div class="row" style="padding-top: 3vw;">
+                <div class="col-6 analytics-right bg-navy">
+                  <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/modelling.svg" alt="Modelling">
                     </div>
@@ -145,7 +144,7 @@ subtitle = ""
                   </div>
                   <div class="row">
                     <div class="col-12">
-                      <hr style="width: 100%;">
+                      <hr class="w-100">
                     </div>
                   </div>
                   <div class="row">
@@ -162,11 +161,11 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left" style="height: 70vh;">
+                <div class="col-6 analytics-left">
                   <img class="d-blocks" src="/media/applications.jpeg">
                 </div>
-                <div class="col-6 analytics-right" style="background-color: #ff5534; ">
-                  <div class="row" style="padding-top: 3vw;">
+                <div class="col-6 analytics-right bg-orange">
+                  <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/applications.svg" alt="Applications & Reporting">
                     </div>
@@ -176,7 +175,7 @@ subtitle = ""
                   </div>
                   <div class="row">
                     <div class="col-12">
-                      <hr style="width: 100%;">
+                      <hr class="w-100">
                     </div>
                   </div>
                   <div class="row">
@@ -203,11 +202,11 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left" style="height: 70vh;">
+                <div class="col-6 analytics-left">
                   <img class="d-blocks" src="/media/consulting.jpeg">
                 </div>
-                <div class="col-6 analytics-right" style="background-color: #9fa4a7; ">
-                  <div class="row" style="padding-top: 3vw; padding-bottom: 1.5vw;">
+                <div class="col-6 analytics-right bg-grey">
+                  <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/consulting.svg" alt="Data Gathering & Preparation">
                     </div>
@@ -217,7 +216,7 @@ subtitle = ""
                   </div>
                   <div class="row">
                     <div class="col-12">
-                      <hr style="width: 100%;">
+                      <hr class="w-100">
                     </div>
                   </div>
                   <div class="row">
