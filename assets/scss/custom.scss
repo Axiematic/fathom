@@ -641,10 +641,6 @@
           transform: translateX(0);
       }
 
-    .carousel-inner {
-      height:100%;
-    }
-
     .carousel-item.active, .carousel-item-next, .carousel-item-prev {
         display: flex;
     }
@@ -913,9 +909,6 @@
 
     .analytics-left {
       height: 70vh;
-      img {
-        height: 100%;
-      }
     }
 
     .analytics-right {

@@ -59,7 +59,7 @@ subtitle = ""
       </div>
       <div class="col-6 container-fluid">
         <div id="clients-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-          <div class="carousel-inner">
+          <div class="carousel-inner h-100">
             <div class="carousel-item active">
               <div class="slide">
                 <!-- slide item -->

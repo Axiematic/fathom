@@ -49,7 +49,7 @@ subtitle = ""
 
 <div class="row mx-auto my-auto page-wrapper">
     <div id="products" class="carousel slide h-100 w-100" data-ride="carousel" data-interval="false">
-        <div class="carousel-inner">
+        <div class="carousel-inner h-100">
             <div class="carousel-item active h-100">
                 <div class="row mr-0">
                     <div class="col-6 analytics-banner tablet-60vh">
@@ -85,7 +85,7 @@ subtitle = ""
             <div class="carousel-item h-100">
               <div class="row">
                 <div class="col-6 analytics-left tablet-60vh">
-                  <img class="d-blocks" src="/media/data-gathering.jpeg">
+                  <img class="d-block h-100" src="/media/data-gathering.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-purple tablet-60vh">
                   <div class="row pt-3vw">
@@ -131,7 +131,7 @@ subtitle = ""
             <div class="carousel-item h-100">
               <div class="row">
                 <div class="col-6 analytics-left tablet-60vh">
-                  <img class="d-blocks" src="/media/modelling.jpeg">
+                  <img class="d-block h-100" src="/media/modelling.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-navy tablet-60vh">
                   <div class="row pt-3vw">
@@ -162,7 +162,7 @@ subtitle = ""
             <div class="carousel-item h-100">
               <div class="row">
                 <div class="col-6 analytics-left tablet-60vh">
-                  <img class="d-blocks" src="/media/applications.jpeg">
+                  <img class="d-block h-100" src="/media/applications.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-orange tablet-60vh">
                   <div class="row pt-3vw">
@@ -203,7 +203,7 @@ subtitle = ""
             <div class="carousel-item h-100">
               <div class="row">
                 <div class="col-6 analytics-left tablet-60vh">
-                  <img class="d-blocks" src="/media/consulting.jpeg">
+                  <img class="d-block h-100" src="/media/consulting.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-grey tablet-60vh">
                   <div class="row pt-3vw">
