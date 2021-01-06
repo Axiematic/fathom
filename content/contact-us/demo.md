@@ -48,7 +48,7 @@ subtitle = ""
 
 
 
-<div class="page-wrapper" style="padding-left: 5vw;">
+<div class="page-wrapper pl-5vw">
   <div class="row h-100 mr-0" style="position: relative;">
     <div class="col-8 col-md-6 contact-left">
           <h3><strong class="purple-text">Let's get to know each<br>other better</strong></h3>
