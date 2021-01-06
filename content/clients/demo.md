@@ -46,15 +46,15 @@ subtitle = ""
  css_class = ""
 +++
 
-<div class="page-wrapper" style="background-color: white;">
-  <div class="row" style="margin-right: 0;">
-      <div class="col-6" style="background-color: white;">
+<div class="page-wrapper bg-white">
+  <div class="row mr-0">
+      <div class="col-6 bg-white">
         <div class="clients-left">
           <h3 class="orange-text">What do you<br>want to know?</h3>
           <p class="orange-text">Fathom uses data to help organisations know what they should be doing more or less of. Or doing better. Or next.</p>
           <p>Our services include all aspects of <a href="">analytics</a> (data preparation, analysis, modelling and forecasting). We also conduct a wide range of <a href="">training</a>, in order that you and your staff can become more fluent in working with data yourselves.</p>
           <p>In everything we do, we want you to 'know' - not just that our work has been thoroughly and meticulously conducted, but also explained in a way that you properly understand and know exactly how to use.</p>
-          {{< figure library="true" src="signature_purple.svg" class="signature-p" style="padding-bottom: 0;">}}
+          {{< figure library="true" src="signature_purple.svg" class="signature-p pb-0">}}
         </div>
       </div>
       <div class="col-6 container-fluid">
@@ -65,7 +65,7 @@ subtitle = ""
                 <!-- slide item -->
               <div class="clients-right">
                 <h3 class="orange-text">Get to know<br>some of our clients</h3>
-                <img src="/media/citizen-shipper.png" class="d-block w-50 center" style="margin-top:15vh; margin-bottom: 15vh" alt="...">
+                <img src="/media/citizen-shipper.png" class="d-block w-50 center mtb-15vh" alt="...">
                 <h5 class="purple-text">Citizen Shipper <br>(USA)</h5>
               </div>
               <!-- hover item -->
@@ -73,8 +73,8 @@ subtitle = ""
                 <div class="clients-right-after">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/citizen-shipper-small.png" alt="...">
-                  <p class="white-text" style="margin-right: 10vw;"><em>“They just got it. And then over-delivered.”</em></p>
-                  <p class="white-text" style="margin-right: 10vw;"><em>“I’m cost-conscious, and Fathom offer very good value.”</em></p>
+                  <p class="white-text mr-10vw"><em>“They just got it. And then over-delivered.”</em></p>
+                  <p class="white-text mr-10vw"><em>“I’m cost-conscious, and Fathom offer very good value.”</em></p>
                   <p class="white-text" >Richard Obousy,<br>CEO, CitizenShipper (USA)</p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ subtitle = ""
                 <!-- slide item -->
               <div class="clients-right">
                 <h3 class="orange-text">Get to know<br>some of our clients</h3>
-                <img src="/media/derivco.png" class="d-block w-50 center" style="margin-top:15vh; margin-bottom: 15vh" alt="...">
+                <img src="/media/derivco.png" class="d-block w-50 center mtb-15vh" alt="...">
                 <h5 class="purple-text">Derivco <br>(SA)</h5>
               </div>
               <!-- hover item -->
@@ -93,7 +93,7 @@ subtitle = ""
                 <div class="clients-right-after">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/derivco-small.png" alt="...">
-                  <p class="white-text" style="margin-right: 10vw;"><em>“When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I didn't figure it out myself.</strong>”</em></p>
+                  <p class="white-text mr-10vw"><em>“When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I didn't figure it out myself.</strong>”</em></p>
                   <p class="white-text" >Natasha Singh,<br>Senior Data Analyst / Statistician, Derivco (SA)</p>
                 </div>
               </div>

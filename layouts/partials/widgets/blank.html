@@ -1,7 +1,7 @@
 {{ $st := .page }}
 {{ $columns := $st.Params.design.columns | default "2" }}
 
-<div class="row" style="margin-right: 0%;">
+<div class="row mr-0">
   {{ if ne $columns "1" }}
     <div class="col-12 col-lg-6">
       {{/*  {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
