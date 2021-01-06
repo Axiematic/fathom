@@ -47,7 +47,7 @@ subtitle = ""
 +++
 
 <div class="page-wrapper">
-  <div class="container-fluid logo-banner fade-out">
+  <div class="container-fluid logo-banner tablet-60vh fade-out">
       <div class="spin">
           <div class="row bar-graph-vertical bar-container">
               <div class="bar-ft bar-container">
@@ -65,7 +65,7 @@ subtitle = ""
             <div class="fade-In">athom<sup class="TM">TM</sup></div>
       </div>
   </div>
-    <div class="home-banner">
+    <div class="home-banner tablet-60vh">
       <div class="home-text slide-r">
         <div class="container-fluid home-text-container pr-0 offset-5vw">
           <div class="row h-100 about-text-row">
