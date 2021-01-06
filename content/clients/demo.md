@@ -49,7 +49,7 @@ subtitle = ""
 <div class="page-wrapper bg-white">
   <div class="row mr-0">
       <div class="col-6 bg-white">
-        <div class="clients-left">
+        <div class="clients-left tablet-60vh">
           <h3 class="orange-text">What do you<br>want to know?</h3>
           <p class="orange-text">Fathom uses data to help organisations know what they should be doing more or less of. Or doing better. Or next.</p>
           <p>Our services include all aspects of <a href="">analytics</a> (data preparation, analysis, modelling and forecasting). We also conduct a wide range of <a href="">training</a>, in order that you and your staff can become more fluent in working with data yourselves.</p>
@@ -59,18 +59,18 @@ subtitle = ""
       </div>
       <div class="col-6 container-fluid">
         <div id="clients-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-          <div class="carousel-inner">
+          <div class="carousel-inner h-100">
             <div class="carousel-item active">
               <div class="slide">
                 <!-- slide item -->
-              <div class="clients-right">
+              <div class="clients-right tablet-60vh">
                 <h3 class="orange-text">Get to know<br>some of our clients</h3>
                 <img src="/media/citizen-shipper.png" class="d-block w-50 center mtb-15vh" alt="...">
                 <h5 class="purple-text">Citizen Shipper <br>(USA)</h5>
               </div>
               <!-- hover item -->
               <div class="clients-carousel-hover">
-                <div class="clients-right-after">
+                <div class="clients-right-after tablet-60vh">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/citizen-shipper-small.png" alt="...">
                   <p class="white-text mr-10vw"><em>“They just got it. And then over-delivered.”</em></p>
@@ -83,14 +83,14 @@ subtitle = ""
             <div class="carousel-item">
               <div class="slide">
                 <!-- slide item -->
-              <div class="clients-right">
+              <div class="clients-right tablet-60vh">
                 <h3 class="orange-text">Get to know<br>some of our clients</h3>
                 <img src="/media/derivco.png" class="d-block w-50 center mtb-15vh" alt="...">
                 <h5 class="purple-text">Derivco <br>(SA)</h5>
               </div>
               <!-- hover item -->
               <div class="clients-carousel-hover">
-                <div class="clients-right-after">
+                <div class="clients-right-after tablet-60vh">
                   <h3 class="white-text">Get to know<br>some of our clients</h3>
                   <img src="/media/derivco-small.png" alt="...">
                   <p class="white-text mr-10vw"><em>“When I have a complicated problem, <strong>they help me solve it so simply that I often wonder why I didn't figure it out myself.</strong>”</em></p>

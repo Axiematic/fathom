@@ -49,32 +49,32 @@ subtitle = ""
 
 <div class="row mx-auto my-auto page-wrapper">
     <div id="products" class="carousel slide h-100 w-100" data-ride="carousel" data-interval="false">
-        <div class="carousel-inner">
+        <div class="carousel-inner h-100">
             <div class="carousel-item active h-100">
                 <div class="row mr-0">
-                    <div class="col-6 analytics-banner">
-                      <div class="clients-left">
+                    <div class="col-6 analytics-banner tablet-60vh">
+                      <div class="clients-left tablet-60vh">
                         <h3><strong class="orange-text">Knowing where to find the data.</strong></h3>
                         <h3 class="mt-0"><strong class="orange-text">Knowing what to do with it.</strong></h3>
                       </div>
                     </div>
-                    <div class="col-6 container-fluid service-options">
+                    <div class="col-6 container-fluid service-options tablet-60vh">
                       <div class="row">
-                          <div class="col-6 data-gathering service">
+                          <div class="col-6 data-gathering service tablet-30vh">
                             <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
                             <p><a id="myBtn1" href="javascript:void();">data gathering + preparation</a></p>
                           </div>
-                        <div class="col-6 modelling service">
+                        <div class="col-6 modelling service tablet-30vh">
                           <img src="/media/modelling.svg" alt="Modelling">
                           <p><a id="myBtn2" href="javascript:void();">modelling</a></p>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-6 applications service">
+                        <div class="col-6 applications service tablet-30vh">
                           <img src="/media/applications.svg" alt="Applications & Reporting">
                           <p><a id="myBtn3" href="javascript:void();">applications + reporting</a></p>
                         </div>
-                        <div class="col-6 consulting service">
+                        <div class="col-6 consulting service tablet-30vh">
                           <img src="/media/consulting.svg" alt="Consulting">
                           <p><a id="myBtn4" href="javascript:void();">consulting</a></p>
                         </div>
@@ -84,10 +84,10 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
-                  <img class="d-blocks" src="/media/data-gathering.jpeg">
+                <div class="col-6 analytics-left tablet-60vh">
+                  <img class="d-block h-100" src="/media/data-gathering.jpeg">
                 </div>
-                <div class="col-6 analytics-right bg-purple">
+                <div class="col-6 analytics-right bg-purple tablet-60vh">
                   <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/data-gathering.svg" alt="Data Gathering & Preparation">
@@ -130,10 +130,10 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
-                  <img class="d-blocks" src="/media/modelling.jpeg">
+                <div class="col-6 analytics-left tablet-60vh">
+                  <img class="d-block h-100" src="/media/modelling.jpeg">
                 </div>
-                <div class="col-6 analytics-right bg-navy">
+                <div class="col-6 analytics-right bg-navy tablet-60vh">
                   <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/modelling.svg" alt="Modelling">
@@ -161,10 +161,10 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
-                  <img class="d-blocks" src="/media/applications.jpeg">
+                <div class="col-6 analytics-left tablet-60vh">
+                  <img class="d-block h-100" src="/media/applications.jpeg">
                 </div>
-                <div class="col-6 analytics-right bg-orange">
+                <div class="col-6 analytics-right bg-orange tablet-60vh">
                   <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/applications.svg" alt="Applications & Reporting">
@@ -202,10 +202,10 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
-                  <img class="d-blocks" src="/media/consulting.jpeg">
+                <div class="col-6 analytics-left tablet-60vh">
+                  <img class="d-block h-100" src="/media/consulting.jpeg">
                 </div>
-                <div class="col-6 analytics-right bg-grey">
+                <div class="col-6 analytics-right bg-grey tablet-60vh">
                   <div class="row pt-3vw">
                     <div class="col-1 product-icon">
                       <img src="/media/consulting.svg" alt="Data Gathering & Preparation">
