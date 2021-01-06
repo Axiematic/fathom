@@ -1,4 +1,4 @@
-<div id="clientCarousel" class="carousel slide w-100" data-ride="carousel" data-interval=4500>
+<div id="clientCarousel" class="carousel slide w-100" data-ride="carousel" data-interval=4500 data-pause="hover">
     <div class="carousel-inner h-100" role="listbox">
         {{ range $index, $slide := .Site.Data.team.slides }}
         {{ $fname := split .name " "}}
@@ -16,7 +16,7 @@
                         <div class="bio">
                             {{ .bio | safeHTML }}
                         </div>
-                        <img src="{{.emotion}}" style="width: 15%; float:left; padding-right: 3%; margin-top: 1rem;">
+                        <img src="{{.emotion}}" class="float-left pr-3" style="width: 15%; margin-top: 1rem;">
                         <h5 class="{{.traitClass}}">{{ index ($fname) 0 }} is  {{ .traits }} </h5>
                     </div>
                 </div>
