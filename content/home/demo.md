@@ -67,7 +67,7 @@ subtitle = ""
   </div>
     <div class="home-banner">
       <div class="home-text slide-r">
-        <div class="container-fluid home-text-container pr-0 pl-5vw">
+        <div class="container-fluid home-text-container pr-0 offset-5vw">
           <div class="row h-100 about-text-row">
               <div class="col-12 align-self-center">
                   {{< figure library="true" src="signature_purple.svg" class="signature-p" >}}
