@@ -13,7 +13,7 @@
     }
 
     .offset-5vw {
-      padding-left:5vw;
+      padding-left: 5vw!important;
     }
 
     .container-fluid {
@@ -33,11 +33,6 @@
     .pt-3vw {
       padding-top: 3vw;
     }
-
-    .pl-5vw {
-      padding-left: 5vw
-    }
-
     .mr-10vw {
       margin-right: 10vw;
     }
@@ -45,6 +40,10 @@
     .mtb-15vh {
       margin-top:15vh; 
       margin-bottom: 15vh;
+    }
+
+    .external-docs {
+      margin: 0% 2% 0% 2%;
     }
 
     .orange-text {
@@ -81,6 +80,10 @@
 
     .bg-white {
       background-color: white;
+    }
+
+    .bg-offwhite {
+      background-color: #f2f3f5;
     }
 
 /* General */
