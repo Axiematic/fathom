@@ -84,7 +84,7 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
+                <div class="col-6 analytics-left tablet-60vh">
                   <img class="d-blocks" src="/media/data-gathering.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-purple tablet-60vh">
@@ -130,7 +130,7 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
+                <div class="col-6 analytics-left tablet-60vh">
                   <img class="d-blocks" src="/media/modelling.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-navy tablet-60vh">
@@ -161,7 +161,7 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
+                <div class="col-6 analytics-left tablet-60vh">
                   <img class="d-blocks" src="/media/applications.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-orange tablet-60vh">
@@ -202,7 +202,7 @@ subtitle = ""
             </div>
             <div class="carousel-item h-100">
               <div class="row">
-                <div class="col-6 analytics-left">
+                <div class="col-6 analytics-left tablet-60vh">
                   <img class="d-blocks" src="/media/consulting.jpeg">
                 </div>
                 <div class="col-6 analytics-right bg-grey tablet-60vh">
