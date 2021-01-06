@@ -48,8 +48,8 @@ subtitle = ""
 
 
 
-<div class="page-wrapper" style="margin-left: 5vw;">
-  <div class="row h-100" style="margin-right: 0; position: relative;">
+<div class="page-wrapper" style="padding-left: 5vw;">
+  <div class="row h-100 mr-0" style="position: relative;">
     <div class="col-8 col-md-6 contact-left">
           <h3><strong class="purple-text">Let's get to know each<br>other better</strong></h3>
           <p class="white-text">We're based in Durban, South Africa, but we can work with you wherever in the world you are.</p>
