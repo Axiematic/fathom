@@ -67,7 +67,6 @@
               </div>
               <div class="row footer-section-text offset-5vw">
                   <p>We're based in Durban, South Africa, but engage with clients everywhere and anywhere.</p>
-                  {{/*  <p>info@fathom.biz | +27 (0)83 350 7699</p>  */}}
               </div>
               <div class="row offset-5vw">
                   <a href="/contact-us" class="footer-statement contact-cta" type="button" class="btn btn-primary">Get in touch</a>
@@ -176,17 +175,17 @@
             </button>
           </div>
           <div class="modal-body">
-              <form>
+              <form name="join-us" method="post" data-netlify="true">
                   <div class="form-group">
                           <input type="text" class="form-control" placeholder="Full name">
                           <input type="email" class="form-control" placeholder="Email">
                       <label for="cv-upload">Upload your CV</label>
                       <input type="file" class="form-control-file" id="cv-upload">
                   </div>
-                </form>
+              </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="cta-button">Submit</button>
+            <button type="submit" class="cta-button">Submit</button>
           </div>
         </div>
       </div>
@@ -249,9 +248,9 @@
             </div>
 
             <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-                <img src="/media/facebook.svg" class="social-icon" alt="Fathom on Facebook">
-                <img src="/media/instagram.svg" class="social-icon" alt="Fathom on Instagram">
-                <img src="/media/twitter.svg" class="social-icon" alt="Fathom on Twitter">
+                <a href="" class="social-icon" target="blank"><img src="/media/linkedin.svg" alt="Fathom on LinkedIn"></a>
+                <a href="https://www.instagram.com/fathomdata/" class="social-icon" target="blank"><img src="/media/instagram.svg" alt="Fathom on Instagram"></a>
+                <a href="https://twitter.com/FathomData" class="social-icon" target="blank"><img src="/media/twitter.svg" salt="Fathom on Twitter"></a>
             </div>
             <div class="col-2 col-md-4 col-lg-2 d-none d-md-flex border-left justify-content-center">
                 <img src="/media/signature_white.svg" class="mt-2" alt="Fathom">

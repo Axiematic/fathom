@@ -55,7 +55,7 @@ subtitle = ""
           <p class="white-text">We're based in Durban, South Africa, but we can work with you wherever in the world you are.</p>
           <p class="white-text">Get in touch to arrange a face-to-face chat or let's meet online. Either way, we look forward to getting under the skin of your challenges and making a difference to your business.</p>
           <p class="white-text">You know it.</p>
-          <p class="orange-text">Andrew Collier <br>+27 (0)83 350 7699 <br> info@fathom.biz</p>
+          <p class="orange-text">Andrew Collier <br>+27 (0)83 350 7699 <br> info@fathomdata.dev</p>
           <img src="/media/contact-purple.svg" class="move" alt="Contact us">
     </div>
     <div class="col-4 col-md-6 contact-right"></div>
