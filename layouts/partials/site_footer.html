@@ -175,7 +175,7 @@
             </button>
           </div>
           <div class="modal-body">
-              <form name="join-us" method="post" data-netlify="true">
+              {{/*  <form name="join-us" method="post" data-netlify="true">
                   <div class="form-group">
                           <input type="text" class="form-control" placeholder="Full name">
                           <input type="email" class="form-control" placeholder="Email">
@@ -183,6 +183,26 @@
                       <input type="file" class="form-control-file" id="cv-upload">
                   </div>
                   <button type="submit" class="cta-button" style="margin-top: 1.5rem;">Submit</button>
+              </form>  */}}
+              <form name="TEST" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
               </form>
           </div>
         </div>
